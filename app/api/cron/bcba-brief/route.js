@@ -815,19 +815,23 @@ function buildEmail(day, dayNumber, total) {
   const questionsHtml = questions
     .map((q, i) => {
       const optionsHtml = q.options
-        .map((opt) => {
-          const isCorrect = opt.charAt(0) === q.answer;
-          return `<li style="margin:6px 0;color:${isCorrect ? "#2a6e2a" : "#333"};font-weight:${isCorrect ? "bold" : "normal"};">${isCorrect ? "✓ " : ""}${opt}</li>`;
-        })
+        .map((opt) => `<li style="margin:6px 0;color:#333;">${opt}</li>`)
         .join("");
 
       return `
         <div style="margin-bottom:24px;">
           <p style="margin:0 0 10px;font-weight:bold;color:#333;">${i + 1}. ${q.q}</p>
-          <ul style="margin:0 0 10px;padding-left:20px;list-style:none;">${optionsHtml}</ul>
-          <p style="margin:0;font-style:italic;color:#555;font-size:14px;"><strong>Rationale:</strong> ${q.rationale}</p>
+          <ul style="margin:0;padding-left:20px;list-style:none;">${optionsHtml}</ul>
         </div>`;
     })
+    .join("");
+
+  const answersHtml = questions
+    .map((q, i) => `
+        <div style="margin-bottom:20px;">
+          <p style="margin:0 0 6px;font-weight:bold;color:#333;">${i + 1}. ${q.answer}</p>
+          <p style="margin:0;font-style:italic;color:#555;font-size:14px;"><strong>Rationale:</strong> ${q.rationale}</p>
+        </div>`)
     .join("");
 
   return `<!DOCTYPE html>
@@ -866,6 +870,16 @@ function buildEmail(day, dayNumber, total) {
       <!-- Practice Questions -->
       <h3 style="margin:0 0 16px;color:#c8440a;font-size:16px;">Practice Questions</h3>
       ${questionsHtml}
+
+      <!-- Answers divider -->
+      <div style="margin-top:320px;padding-top:24px;border-top:2px solid #c8440a;text-align:center;">
+        <p style="margin:0;font-size:15px;font-weight:bold;color:#c8440a;letter-spacing:0.05em;">— Answers Below —</p>
+      </div>
+
+      <!-- Answers -->
+      <div style="margin-top:24px;">
+        ${answersHtml}
+      </div>
 
     </div>
 
