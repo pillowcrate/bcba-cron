@@ -1292,7 +1292,7 @@ export async function GET(req) {
 
   const { error } = await resend.emails.send({
     from: "BCBA Daily Brief <onboarding@resend.dev>",
-    to: ["ben@voxprint.com", "kadi@sandstoneaba.org"],
+    to: ["ben@voxprint.com", "kadiblack17@gmail.com", "Tara@sandstoneaba.org", "Hannah@sandstoneaba.org"],
     subject: `BCBA Daily Brief — Day ${dayNumber}: ${day.concept.title}`,
     html,
   });
