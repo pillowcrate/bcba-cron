@@ -1291,7 +1291,7 @@ export async function GET(req) {
   const html = buildEmail(day, dayNumber, DAYS.length);
 
   const { error } = await resend.emails.send({
-    from: "BCBA Daily Brief <onboarding@resend.dev>",
+    from: "BCBA Daily Brief <bcba@voxprinting.com>",
     to: ["ben@voxprint.com", "kadiblack17@gmail.com", "Tara@sandstoneaba.org", "Hannah@sandstoneaba.org"],
     subject: `BCBA Daily Brief — Day ${dayNumber}: ${day.concept.title}`,
     html,
