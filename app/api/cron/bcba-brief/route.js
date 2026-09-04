@@ -2060,7 +2060,7 @@ function countWeekdays(startDate, endDate) {
 // "Day 79 of 112" on the next send. Anchoring the sequence to a known (date, day)
 // pair keeps it continuous — and, unlike START_DATE, it stays correct the next time
 // days are added, because the anchor can simply be restamped to the last send.
-// Anchor: with the old 63-day deck and START_DATE=2026-05-19 (see README), there
+// Anchor: with the old 63-day deck and the retired START_DATE=2026-05-19, there
 // were 77 elapsed weekdays on 2026-09-03 and 77 % 63 = 14, i.e. that day's send was
 // "Day 15 of 63". The anchor continues from exactly there.
 // NOTE: this does not self-maintain. If DAYS.length changes again, restamp the

@@ -52,7 +52,21 @@ Fill in the values:
 |---|---|
 | `RESEND_API_KEY` | From [resend.com/api-keys](https://resend.com/api-keys) |
 | `CRON_SECRET` | Any strong random string — generate with `openssl rand -hex 32` |
-| `START_DATE` | `2026-05-19` (the first Monday the cron fires) |
+
+`RESEND_API_KEY` must be available at **build** time, not just at runtime: the Resend client is
+constructed at module scope, so a missing key fails `next build` rather than just a send.
+
+Which day gets sent is no longer derived from a `START_DATE` variable. It comes from
+`ROTATION_ANCHOR` in `app/api/cron/bcba-brief/route.js`:
+
+```js
+const ROTATION_ANCHOR = { date: "2026-09-03", dayNumber: 15 };
+// index = (dayNumber - 1 + countWeekdays(date, today)) % DAYS.length
+```
+
+**If you add or remove days, restamp the anchor** to the date of the most recent send and the day
+number that send actually displayed (read it from the email subject line). Changing
+`DAYS.length` without restamping makes the printed counter jump.
 
 ---
 
@@ -68,7 +82,8 @@ Go to **Settings → Environment Variables** and add:
 
 - `RESEND_API_KEY`
 - `CRON_SECRET`
-- `START_DATE` = `2026-05-19`
+
+Both should be set for Production (and Preview if you use it).
 
 ### 3. Deploy
 
