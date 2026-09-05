@@ -55,36 +55,58 @@ thing that catches this is answering the questions cold, with no answer key.
    disagreements (a distractor may now be true) and questions with more than one
    defensible answer.
 4. **`blind-round2.mjs`** / **`blind-recheck.mjs`** — re-check a narrow subset after
-   further edits, with fresh shuffles.
+   further edits, with fresh shuffles. **The subset is hardcoded** (`blind-round2.mjs:6`,
+   `blind-recheck.mjs:6`) to the specific questions being chased in Sept 2026. Edit that
+   list before reusing them, or you will silently re-check the old eleven instead of
+   your own.
 
 Last run: 129/129 agreement with the key, 2 flagged as having a second defensible
-answer (`d9q2`, `d75q3`).
+answer (`d9q2`, `d75q3`). Those two, plus further edits, went through four more rounds:
+`r2A`/`r2B` (11 questions each), `r3` (`d54q1`, `d84q2`), and `r4` (`d36q3`, the fix in
+`72cb2ac`). Rounds 3 and 4 were generated ad hoc — **no script in this directory
+reproduces them**, which is why their keys are committed.
 
 ## blind-run/ — the preserved record of that run
 
 `blind-run/` holds the **authored** blind picks (`answers-*.json` — each with a
-confidence rating and prose reasoning) plus `applied-ids.json`, the blind question sets,
-and their keys. These are the one thing here that **no script can regenerate**: they are
-human judgement, not derived data. `make-blind.mjs` also hard-requires `applied-ids.json`.
+confidence rating and prose reasoning) plus `applied-ids.json`, and every blind question
+set with its matching key. The picks are the one thing here that **no script can
+regenerate**: they are human judgement, not derived data. `make-blind.mjs` also
+hard-requires `applied-ids.json`.
+
+The keys are not optional bookkeeping. A pick is recorded as a letter in *shuffled*
+space, so `"pick": "D"` is meaningless without the key that maps it back — for `d36q3`,
+blind D decodes to real option B. Every `answers-*.json` here has its key.
 
 To reproduce the 129/129 result from a clean checkout:
 
 ```
-node tools/qa/extract-targets.mjs      # regenerates all-questions.json
-cp tools/qa/blind-run/* .bcba-build/   # restores the authored answers
+node tools/qa/extract-targets.mjs      # regenerates all-questions.json, creates .bcba-build/
+cp tools/qa/blind-run/* .bcba-build/   # restores the authored answers and keys
 node tools/qa/score-blind.mjs
 ```
 
 Verified working from a `git archive` checkout on 2026-09-05.
+
+**Read that as reproducing a historical result, not as re-verifying the bank.**
+`score-blind.mjs` compares Sept-2026 human picks against whatever `route.js` says
+*today*. 12 of the 129 questions have already been edited since those picks were made
+(`d1q2`, `d9q2`, `d30q2`, `d36q3`, `d43q3`, `d47q3`, `d54q1`, `d75q3`, `d81q3`, `d84q2`,
+`d102q2`, `d102q3`) and it still prints 129/129 with no warning, because the correct
+*letter* did not move. Each of those was re-checked in a later round — that is what
+`r2`–`r4` are — but the scorer cannot see that. To actually verify the bank, run a fresh
+`make-blind` → answer → `score-blind` cycle.
 
 ## Gotchas
 
 - **Re-running `make-blind.mjs` silently invalidates old answers — but not the way you'd
   expect.** The option shuffle is a pure function of the question id, so `blind-key.json`
   regenerates byte-identical and is *not* the hazard. The hazard is that `make-blind.mjs`
-  reads the **current** `route.js`, so the question *text* in `blind-NN.json` changes
-  whenever questions change. Old `answers-*.json` then refer to wording that no longer
-  exists, and `score-blind.mjs` will score them anyway without warning. Score before
+  reads the **current** `route.js`, so the question *text* changes whenever questions
+  change. Old `answers-*.json` then refer to wording that no longer exists. Note the
+  mechanism: `score-blind.mjs` never opens `blind-NN.json` at all — it scores against
+  `all-questions.json`, which `extract-targets.mjs` regenerates from today's `route.js`.
+  So it will score stale picks without warning. Score before
   regenerating, or work on a copy.
 - **`score-blind.mjs` hardcodes its denominator** (`... / 129`) but computes the
   percentage from the answers it actually loaded. If answer files are missing it prints
@@ -111,8 +133,16 @@ Also here: the authoring and review briefs (`BRIEF*.md`), `ASSIGNMENTS.md`, and
 `STATUS.md` lists `START_DATE` as a required production env var, which was retired in
 `bc32ade`. Read them as history, not as current instructions.
 
-Not preserved: the bulk derived artifacts — `route.*.js` snapshots (~620KB each),
-`out_g*.js`, `all-questions.json` and the `batch-*.json` splits. All of those regenerate
-from `extract-targets.mjs` against the current `route.js`. Note that `.bcba-build/` was
-never tracked in git, so nothing left behind is recoverable from history — that is
-exactly why the authored answers in `blind-run/` are committed rather than left there.
+Not preserved, for two different reasons — the distinction matters, because assuming the
+wrong one is what nearly lost the blind answers:
+
+- **Regenerate from `extract-targets.mjs`** against the current `route.js`:
+  `all-questions.json`, `targets.json`, `batch-*.json`. Those are the only three files
+  it writes.
+- **Recoverable from `route.js` in git history, not from any script:** the `route.*.js`
+  snapshots (~620KB each) and the 17 `out_g*.js` authoring outputs. Their content was
+  merged into `route.js`, which is tracked. Nothing regenerates them.
+
+`.bcba-build/` itself was never tracked in git, so anything left there and not in one of
+those two categories is simply gone if the directory is cleaned. That is exactly why the
+authored picks and keys in `blind-run/` are committed rather than left behind.

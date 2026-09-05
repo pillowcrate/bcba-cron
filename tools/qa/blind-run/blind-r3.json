@@ -1,0 +1,26 @@
+[
+ {
+  "id": "d54q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.13",
+  "q": "The defining structural feature that distinguishes a discrete trial from a free-operant arrangement is:",
+  "choices": [
+   "A. The instructor-paced trial bounded by an intertrial interval",
+   "B. The delivery of reinforcement immediately after correct responses",
+   "C. The collection of trial-by-trial behavioral data records",
+   "D. The use of a discriminative stimulus to occasion responding"
+  ]
+ },
+ {
+  "id": "d84q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.12",
+  "q": "Backward chaining is considered advantageous primarily because:",
+  "choices": [
+   "A. It can be implemented without first writing a task analysis",
+   "B. It requires fewer instructional sessions than forward chaining does",
+   "C. It is the easiest chaining method to run in natural settings",
+   "D. It lets the learner contact the terminal reinforcer every trial"
+  ]
+ }
+]
