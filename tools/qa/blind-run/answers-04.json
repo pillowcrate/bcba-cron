@@ -1,0 +1,23 @@
+[
+ { "id": "d2q1", "pick": "B", "confidence": "high", "defensible": ["B"] },
+ { "id": "d7q1", "pick": "B", "confidence": "high", "defensible": ["B"] },
+ { "id": "d12q1", "pick": "B", "confidence": "high", "defensible": ["B"] },
+ { "id": "d20q1", "pick": "C", "confidence": "high", "defensible": ["C"] },
+ { "id": "d28q2", "pick": "A", "confidence": "high", "defensible": ["A"] },
+ { "id": "d32q2", "pick": "C", "confidence": "high", "defensible": ["C"] },
+ { "id": "d36q3", "pick": "C", "confidence": "high", "defensible": ["C"] },
+ { "id": "d40q2", "pick": "C", "confidence": "high", "defensible": ["C"] },
+ { "id": "d47q3", "pick": "A", "confidence": "high", "defensible": ["A"] },
+ { "id": "d56q1", "pick": "D", "confidence": "high", "defensible": ["D"] },
+ { "id": "d64q2", "pick": "C", "confidence": "high", "defensible": ["C"] },
+ { "id": "d70q3", "pick": "A", "confidence": "high", "defensible": ["A"] },
+ { "id": "d75q1", "pick": "B", "confidence": "high", "defensible": ["B"] },
+ { "id": "d79q2", "pick": "A", "confidence": "high", "defensible": ["A"] },
+ { "id": "d82q2", "pick": "C", "confidence": "high", "defensible": ["C"] },
+ { "id": "d86q2", "pick": "A", "confidence": "high", "defensible": ["A"] },
+ { "id": "d89q3", "pick": "C", "confidence": "high", "defensible": ["C"] },
+ { "id": "d93q3", "pick": "B", "confidence": "high", "defensible": ["B"] },
+ { "id": "d100q3", "pick": "C", "confidence": "high", "defensible": ["C"] },
+ { "id": "d104q1", "pick": "C", "confidence": "high", "defensible": ["C"] },
+ { "id": "d107q3", "pick": "B", "confidence": "high", "defensible": ["B"] }
+]

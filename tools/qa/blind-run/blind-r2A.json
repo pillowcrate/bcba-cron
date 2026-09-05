@@ -1,0 +1,134 @@
+[
+ {
+  "id": "d47q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.14",
+  "q": "An independent group contingency differs from the other two arrangements primarily because it:",
+  "choices": [
+   "A. Makes group access to reinforcement depend on one selected member",
+   "B. Requires every member to meet the criterion before anyone is reinforced",
+   "C. Cannot be applied to more than one target behavior at a time",
+   "D. Ties each member's reinforcement to their own behavior alone"
+  ]
+ },
+ {
+  "id": "d34q3",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.7 · Progress Monitoring",
+  "q": "Written mastery criteria in a behavior program should specify:",
+  "choices": [
+   "A. The metric, criterion value, and number of consecutive sessions",
+   "B. The therapist's qualitative judgment about the client's overall performance",
+   "C. The minimum number of teaching trials required in each session",
+   "D. Only the percentage correct averaged across all trials to date"
+  ]
+ },
+ {
+  "id": "d1q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.5",
+  "q": "Lerman and Iwata (1993) found that, compared to functional analysis, descriptive assessments frequently:",
+  "choices": [
+   "A. Yielded enough evidence to design treatment without functional analysis",
+   "B. Isolated the maintaining variable as precisely as a functional analysis",
+   "C. Overidentified automatic reinforcement as the maintaining function",
+   "D. Misidentified or entirely failed to detect the maintaining variable"
+  ]
+ },
+ {
+  "id": "d30q2",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.10",
+  "q": "Programming instruction in a client's home language primarily protects:",
+  "choices": [
+   "A. The funder's documentation and eligibility requirements",
+   "B. The family's comfort during sessions rather than skill acquisition",
+   "C. The analyst's scheduling efficiency across the caseload",
+   "D. The client's acquisition and the family's ability to maintain it"
+  ]
+ },
+ {
+  "id": "d43q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.2 · DRL",
+  "q": "Compared with an extinction-based reductive procedure, an advantage of DRL is that:",
+  "choices": [
+   "A. It requires no rate criterion to be specified in advance",
+   "B. It eliminates the target behavior more rapidly and more completely",
+   "C. It removes the need to collect ongoing response-rate data",
+   "D. It lets the behavior keep producing reinforcement at a lower rate"
+  ]
+ },
+ {
+  "id": "d54q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.13",
+  "q": "The defining structural feature that distinguishes a discrete trial from a free-operant arrangement is:",
+  "choices": [
+   "A. The collection of trial-by-trial behavioral data records",
+   "B. The delivery of reinforcement following correct responses",
+   "C. The instructor-paced trial bounded by an intertrial interval",
+   "D. The use of a discriminative stimulus to occasion each response"
+  ]
+ },
+ {
+  "id": "d81q3",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.14",
+  "q": "Response generalization in behavior reduction contexts is clinically significant because:",
+  "choices": [
+   "A. It allows new topographies to emerge in the same response class",
+   "B. It removes any need to program multiple exemplar training",
+   "C. It removes the need for extinction in differential reinforcement",
+   "D. It guarantees that FCT responses transfer to new settings"
+  ]
+ },
+ {
+  "id": "d84q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.12",
+  "q": "Backward chaining is considered advantageous primarily because:",
+  "choices": [
+   "A. It is the easiest chaining method to run in natural settings",
+   "B. It requires fewer instructional sessions than forward chaining",
+   "C. It can be implemented without first writing a task analysis",
+   "D. It ensures the terminal reinforcer follows the final step"
+  ]
+ },
+ {
+  "id": "d102q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.9",
+  "q": "In Baer, Peterson, and Sherman (1967), untrained imitative responses were maintained even without direct reinforcement primarily because:",
+  "choices": [
+   "A. The untrained responses were physically prompted on every trial",
+   "B. The children were reinforced on a thin fixed-ratio schedule",
+   "C. Models were faded gradually in intensity across trials",
+   "D. Similarity to the model had become a conditioned reinforcer"
+  ]
+ },
+ {
+  "id": "d102q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.9",
+  "q": "Technically, an imitative response requires that the model:",
+  "choices": [
+   "A. Be the discriminative stimulus that evokes the response",
+   "B. Be delivered only by the primary therapist in each session",
+   "C. Be a vocal model rather than a motor or gestural model",
+   "D. Be presented immediately after the learner’s response occurs"
+  ]
+ },
+ {
+  "id": "d36q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.5 · Mand Training",
+  "q": "A child reliably says \"car\" only after the therapist asks \"What do you want?\" but never reaches for or requests the car otherwise when motivated. This most likely indicates the response is functioning as a(n):",
+  "choices": [
+   "A. A tact evoked by the sight of the car in the room",
+   "B. A pure mand evoked by motivating operation control",
+   "C. An untrained listener response to the therapist's question",
+   "D. An intraverbal or echoic under instructional control"
+  ]
+ }
+]

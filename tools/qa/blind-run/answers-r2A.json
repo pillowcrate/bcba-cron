@@ -1,0 +1,71 @@
+[
+ {
+  "id": "d47q3",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"]
+ },
+ {
+  "id": "d34q3",
+  "pick": "A",
+  "confidence": "high",
+  "defensible": ["A"]
+ },
+ {
+  "id": "d1q2",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"]
+ },
+ {
+  "id": "d30q2",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"]
+ },
+ {
+  "id": "d43q3",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"]
+ },
+ {
+  "id": "d54q1",
+  "pick": "C",
+  "confidence": "medium",
+  "defensible": ["C", "D"],
+  "note": "D is arguably true as written because 'a discriminative stimulus to occasion each response' describes exactly the per-trial antecedent that free-operant arrangements lack; C is still the better answer since free-operant responding is also under discriminative control, but the two options now overlap."
+ },
+ {
+  "id": "d81q3",
+  "pick": "A",
+  "confidence": "high",
+  "defensible": ["A"]
+ },
+ {
+  "id": "d84q2",
+  "pick": "D",
+  "confidence": "medium",
+  "defensible": ["D"],
+  "note": "D is the only non-false option, but as worded it is trivially true of forward chaining too; the real advantage is that the learner contacts the terminal reinforcer on every trial from the first session, which the current phrasing does not say."
+ },
+ {
+  "id": "d102q2",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"]
+ },
+ {
+  "id": "d102q3",
+  "pick": "A",
+  "confidence": "high",
+  "defensible": ["A"]
+ },
+ {
+  "id": "d36q3",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "Correct as the only option describing verbal/instructional stimulus control, but 'or echoic' is inaccurate since 'car' does not appear in the therapist's question; the response is an intraverbal only."
+ }
+]

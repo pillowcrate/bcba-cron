@@ -1,0 +1,266 @@
+[
+ {
+  "id": "d1q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.5",
+  "q": "A scatter plot assessment is most useful for:",
+  "choices": [
+   "A. Establishing a functional relationship between the IV and the DV",
+   "B. Confirming which consequence is reinforcing the problem behavior",
+   "C. Identifying temporal patterns in behavior across time blocks",
+   "D. Calculating interobserver agreement between two observers"
+  ]
+ },
+ {
+  "id": "d3q2",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.4",
+  "q": "A team increasingly uses a response-cost procedure because it suppresses behavior within seconds. This pattern is best explained by:",
+  "choices": [
+   "A. Response substitution into another topography by the client",
+   "B. Negative reinforcement of the staff's punishing behavior",
+   "C. Ratio strain from thinning the staff's reinforcement schedule",
+   "D. Elicited aggression in the client following punishment"
+  ]
+ },
+ {
+  "id": "d8q3",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.12/B.13",
+  "q": "Overly narrow stimulus control is most likely to occur when:",
+  "choices": [
+   "A. Reinforcement is thinned too rapidly during acquisition training",
+   "B. Training occurs with a single instructor in a single setting",
+   "C. Generalization is programmed across multiple exemplars and settings",
+   "D. The SΔ is introduced at high intensity from the first trial"
+  ]
+ },
+ {
+  "id": "d15q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.8",
+  "q": "Applying planned ignoring (withholding attention) to behavior that is actually maintained by escape from demands is likely to:",
+  "choices": [
+   "A. Function as reinforcement by delivering escape from the demand",
+   "B. Convert the behavior to an automatic reinforcement function",
+   "C. Produce no change in the behavior at any point during treatment",
+   "D. Function as extinction and steadily reduce the problem behavior"
+  ]
+ },
+ {
+  "id": "d22q3",
+  "domain": "Behaviorism and Philosophical Foundations",
+  "taskCode": "A.1",
+  "q": "Skinner's (1953) Science and Human Behavior is significant to the field of ABA primarily because it:",
+  "choices": [
+   "A. Established the seven dimensions defining applied behavior analysis",
+   "B. Introduced errorless learning as a discrimination teaching method",
+   "C. Articulated the natural science framework within which ABA operates",
+   "D. Introduced functional analysis as an experimental assessment method"
+  ]
+ },
+ {
+  "id": "d29q3",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.3",
+  "q": "Pavlov's (1927) experimental work established which phenomenon as a characteristic of respondent conditioning?",
+  "choices": [
+   "A. Stimulus generalization of responses to stimuli similar to the CS",
+   "B. Resistance to extinction proportional to the density of prior reinforcement",
+   "C. Response patterning determined by the schedule of reinforcement",
+   "D. Post-reinforcement pause after a fixed-ratio requirement is met"
+  ]
+ },
+ {
+  "id": "d34q3",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.7 · Progress Monitoring",
+  "q": "Written mastery criteria in a behavior program should specify:",
+  "choices": [
+   "A. Only the percentage correct averaged across all trials to date",
+   "B. The minimum number of teaching trials required in each session",
+   "C. The metric, criterion value, and number of consecutive sessions",
+   "D. The therapist's qualitative judgment about the client's overall performance"
+  ]
+ },
+ {
+  "id": "d38q1",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.2",
+  "q": "Evidence-based practice in ABA requires integration of:",
+  "choices": [
+   "A. Meta-analyses and systematic reviews of group designs only",
+   "B. Peer-reviewed publications combined with expert consensus",
+   "C. Research evidence, clinical expertise, and client preferences",
+   "D. Research evidence from peer-reviewed single-case studies alone"
+  ]
+ },
+ {
+  "id": "d43q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.2 · DRL",
+  "q": "Compared with an extinction-based reductive procedure, an advantage of DRL is that:",
+  "choices": [
+   "A. The behavior keeps producing reinforcement at a lower rate",
+   "B. It removes the need for ongoing response-rate data",
+   "C. It requires no rate criterion to be specified in advance",
+   "D. It eliminates the behavior more rapidly and more completely"
+  ]
+ },
+ {
+  "id": "d50q3",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.19",
+  "q": "A therapist says \"The opposite of hot is...\" and the child says \"cold.\" The child's response is best classified as a(n):",
+  "choices": [
+   "A. Tact, because 'cold' names a physical property present in the room",
+   "B. Intraverbal, because the form lacks point-to-point correspondence",
+   "C. Mand, because the child's response produces a specific reinforcer",
+   "D. Echoic, because the response follows an adult verbal stimulus"
+  ]
+ },
+ {
+  "id": "d57q3",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.1",
+  "q": "Informed consent in ABA practice is best characterized as:",
+  "choices": [
+   "A. An ongoing process in which clients may withdraw consent at any time",
+   "B. The responsibility of the funding source rather than the treating clinician",
+   "C. Required only when a restrictive procedure is being introduced",
+   "D. A one-time signature obtained on the intake document at admission"
+  ]
+ },
+ {
+  "id": "d66q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.7/G.8",
+  "q": "In a most-to-least prompting hierarchy, training begins with:",
+  "choices": [
+   "A. No prompt at all, adding prompts after three consecutive errors",
+   "B. A verbal prompt regardless of the learner’s current skill level",
+   "C. The most intrusive prompt necessary and fades toward independence",
+   "D. The least intrusive prompt, adding intrusiveness only after errors"
+  ]
+ },
+ {
+  "id": "d73q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.10 · Instructions and Rules",
+  "q": "The primary efficiency advantage of using a rule or instruction is that it:",
+  "choices": [
+   "A. Eliminates any need for the behavior to contact natural reinforcement",
+   "B. Removes the requirement that the learner have a listener repertoire",
+   "C. Allows behavior to come under a contingency not yet directly contacted",
+   "D. Guarantees that behavior will remain sensitive to changing contingencies"
+  ]
+ },
+ {
+  "id": "d77q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.10 · Contingency Contracting",
+  "q": "A contingency contract is most appropriately used when the target behavior represents:",
+  "choices": [
+   "A. A skill deficit for a behavior not yet in the learner's repertoire",
+   "B. A behavior that must be suppressed through response cost",
+   "C. A behavior maintained entirely by automatic reinforcement",
+   "D. A performance deficit — a behavior already in the repertoire"
+  ]
+ },
+ {
+  "id": "d81q1",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.14",
+  "q": "Stimulus generalization is defined as:",
+  "choices": [
+   "A. The transfer of response control from a prompt to the natural SD",
+   "B. The maintenance of behavior after the intervention is fully withdrawn",
+   "C. The occurrence of a trained response to similar untrained stimuli",
+   "D. The occurrence of novel response forms to the training stimulus"
+  ]
+ },
+ {
+  "id": "d84q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.12",
+  "q": "Backward chaining is considered advantageous primarily because:",
+  "choices": [
+   "A. It is the easiest chaining method to run in natural settings",
+   "B. It can be implemented without first writing a task analysis",
+   "C. The terminal reinforcer follows the last step on every trial",
+   "D. It requires fewer instructional sessions than forward chaining"
+  ]
+ },
+ {
+  "id": "d88q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.15 · Stokes and Baer",
+  "q": "Stokes and Baer (1977) described 'train and hope' as:",
+  "choices": [
+   "A. A strategy appropriate once maintenance-phase programming begins",
+   "B. A method for recruiting natural communities of reinforcement",
+   "C. The common but inadequate default of training without programming",
+   "D. The most efficient low-effort strategy for producing generalization"
+  ]
+ },
+ {
+  "id": "d92q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.6",
+  "q": "A learner scores 95% on a receptive ID program, but the target card always sits on the left. This suggests:",
+  "choices": [
+   "A. Possible restricted stimulus control by comparison position",
+   "B. An overly dense schedule of reinforcement for correct trials",
+   "C. A need to shift to delayed match-to-sample procedures",
+   "D. Mastery of the intended auditory-visual discrimination"
+  ]
+ },
+ {
+  "id": "d96q1",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.9",
+  "q": "Cultural humility differs from cultural competence primarily in that humility:",
+  "choices": [
+   "A. Treats self-evaluation as ongoing rather than as masterable",
+   "B. Replaces the need for individualized assessment of values",
+   "C. Applies only when working with non-English-speaking families",
+   "D. Requires no examination of the analyst's own cultural values"
+  ]
+ },
+ {
+  "id": "d102q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.9",
+  "q": "Technically, an imitative response requires that the model:",
+  "choices": [
+   "A. Be presented immediately after the learner’s response occurs",
+   "B. Be a vocal model rather than a motor or gestural model",
+   "C. Serve as the discriminative stimulus evoking the response",
+   "D. Be delivered only by the primary therapist in each session"
+  ]
+ },
+ {
+  "id": "d105q2",
+  "domain": "Behaviorism and Philosophical Foundations",
+  "taskCode": "A.5",
+  "q": "An intervention rapidly reduces a behavior using a procedure the child's parents find demeaning and refuse to continue at home. This intervention most clearly fails on:",
+  "choices": [
+   "A. The experimental control over responding",
+   "B. Interobserver agreement on the target measure",
+   "C. The social appropriateness of the procedures",
+   "D. The internal validity of the demonstrated effect"
+  ]
+ },
+ {
+  "id": "d111q1",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.4",
+  "q": "The motivating operation (MO) differs from the discriminative stimulus (SD) primarily in that the MO:",
+  "choices": [
+   "A. Precedes the behavior while the SD follows it as a consequence",
+   "B. Is an unconditioned stimulus while the SD is always conditioned",
+   "C. Alters only negative reinforcement contingencies, not positive",
+   "D. Alters reinforcer value rather than signaling its availability"
+  ]
+ }
+]

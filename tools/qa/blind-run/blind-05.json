@@ -1,0 +1,254 @@
+[
+ {
+  "id": "d2q2",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.2",
+  "q": "A primary purpose of establishing a supervision contract at the outset is to:",
+  "choices": [
+   "A. Guarantee that the supervisee will pass the certification exam on schedule",
+   "B. Specify the mutual expectations and responsibilities of both parties",
+   "C. Replace the need for ongoing performance feedback and direct observation",
+   "D. Transfer ethical accountability for services to the supervisee"
+  ]
+ },
+ {
+  "id": "d8q1",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.12/B.13",
+  "q": "A discriminative stimulus (SD) is defined as a stimulus in the presence of which:",
+  "choices": [
+   "A. Behavior is physically incompatible with any competing response",
+   "B. Behavior has been punished and is therefore less probable",
+   "C. Behavior is reinforced on a fixed-interval schedule of delivery",
+   "D. Behavior has been reinforced and is therefore more probable"
+  ]
+ },
+ {
+  "id": "d12q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.20",
+  "q": "Asked “What do you drink?”, a learner names the beverage he has been deprived of all morning. This reflects:",
+  "choices": [
+   "A. Audience control exerted by the instructor asking the question",
+   "B. A formal prompt sharing point-to-point correspondence with the response",
+   "C. Failure of stimulus generalization across settings and instructors",
+   "D. A motivating operation exerting mand control over an intraverbal"
+  ]
+ },
+ {
+  "id": "d20q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.16 · Self-Management",
+  "q": "Self-management programs often require external support early on because:",
+  "choices": [
+   "A. The controlled response cannot be measured without an outside observer",
+   "B. Reactivity from self-recording always shifts behavior the wrong way",
+   "C. Antecedent manipulation is ineffective when applied to one's own behavior",
+   "D. The controlling response is itself behavior that must be reinforced"
+  ]
+ },
+ {
+  "id": "d29q1",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.3",
+  "q": "The critical difference between operant and respondent conditioning is that operant conditioning:",
+  "choices": [
+   "A. Involves responses elicited by an antecedent conditioned stimulus",
+   "B. Requires an unconditioned stimulus to be paired with a neutral stimulus",
+   "C. Applies only to reflexive responses in non-human organisms",
+   "D. Is governed by consequences of behavior rather than stimulus pairing"
+  ]
+ },
+ {
+  "id": "d33q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Methodology",
+  "q": "The primary advantage of functional analysis over descriptive assessment for function identification is that FA:",
+  "choices": [
+   "A. Is faster and far less resource-intensive than descriptive methods",
+   "B. Can be designed and interpreted by RBTs without BCBA oversight",
+   "C. Does not require the behavior to occur during the assessment",
+   "D. Establishes causation by experimentally manipulating variables"
+  ]
+ },
+ {
+  "id": "d37q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.7",
+  "q": "A client begins screaming and refusing food within one week, with no change to programming, staff, or setting. The BCBA should first:",
+  "choices": [
+   "A. Recommend medical evaluation before further assessment",
+   "B. Increase reinforcement density during mealtime demands",
+   "C. Implement escape extinction across all mealtime sessions",
+   "D. Begin a functional analysis of the mealtime refusal behavior"
+  ]
+ },
+ {
+  "id": "d41q2",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.8",
+  "q": "Occurrence and non-occurrence IOA are reported separately primarily because:",
+  "choices": [
+   "A. Non-occurrence agreement is always lower than occurrence agreement",
+   "B. The BACB requires the split for legal defensibility of agency records",
+   "C. Overall IOA can look acceptable while occurrence agreement is poor",
+   "D. Overall IOA cannot be calculated for interval-recording data"
+  ]
+ },
+ {
+  "id": "d48q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.17",
+  "q": "Which question best distinguishes a discriminative stimulus from a motivating operation?",
+  "choices": [
+   "A. Was the consequence ever unavailable without the antecedent?",
+   "B. Does the antecedent increase the frequency of the behavior?",
+   "C. Is the antecedent a person, an object, or a spoken instruction?",
+   "D. Does the antecedent reliably precede the behavior in time?"
+  ]
+ },
+ {
+  "id": "d57q1",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.1",
+  "q": "The 'least restrictive alternative' principle in the BACB Ethics Code requires that behavior analysts:",
+  "choices": [
+   "A. Obtain written consent before implementing any behavior plan",
+   "B. Use the least restrictive of comparably effective interventions",
+   "C. Avoid all punishment-based procedures under every circumstance",
+   "D. Always choose the least restrictive option regardless of effectiveness"
+  ]
+ },
+ {
+  "id": "d65q1",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.1",
+  "q": "A response class is defined by:",
+  "choices": [
+   "A. Responses that occur within the same observation interval",
+   "B. Responses evoked by the same antecedent stimulus",
+   "C. Topographical similarity among the responses in the set",
+   "D. Responses producing the same effect on the environment"
+  ]
+ },
+ {
+  "id": "d72q2",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.1 · Goal Selection",
+  "q": "A behavioral cusp is best defined as a behavior change that:",
+  "choices": [
+   "A. Exposes the person to new environments and contingencies",
+   "B. Must be reinforced on a continuous schedule to maintain",
+   "C. Reduces problem behavior to a socially acceptable rate",
+   "D. Can be acquired only through massed discrete-trial teaching"
+  ]
+ },
+ {
+  "id": "d75q2",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.1 · Operational Definitions",
+  "q": "According to Kazdin (1977), vague operational definitions most directly contribute to:",
+  "choices": [
+   "A. Overestimation of behavior by partial-interval recording",
+   "B. Ratio strain when a reinforcement schedule is thinned quickly",
+   "C. Reduced inter-observer agreement from inconsistent scoring",
+   "D. Extinction bursts during the first treatment sessions"
+  ]
+ },
+ {
+  "id": "d79q3",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.11 · Procedures",
+  "q": "Resurgence refers to:",
+  "choices": [
+   "A. Reappearance of extinguished behavior after a period of non-exposure",
+   "B. An increase in problem behavior following reinforcement schedule thinning",
+   "C. Return of an extinguished behavior when a newer response is extinguished",
+   "D. The temporary rate increase seen when extinction is first implemented"
+  ]
+ },
+ {
+  "id": "d83q1",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.6",
+  "q": "An RBT has run a DRA plan for three weeks with no change in problem behavior. The BCBA should first:",
+  "choices": [
+   "A. Add a punishment component to the existing plan",
+   "B. Conclude the function hypothesis was wrong and reassess",
+   "C. Collect procedural integrity data on the DRA plan",
+   "D. Increase the magnitude of the alternative reinforcer"
+  ]
+ },
+ {
+  "id": "d87q2",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.2",
+  "q": "Which consequence of unethical practice falls at the level of risk to the profession?",
+  "choices": [
+   "A. Revocation of an individual practitioner's BACB certification",
+   "B. A civil suit filed against the individual practitioner",
+   "C. A client losing a developmental window to ineffective care",
+   "D. Funders restricting coverage for behavior-analytic services"
+  ]
+ },
+ {
+  "id": "d91q1",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.4",
+  "q": "A behavior analyst may disclose confidential client information without specific client consent when:",
+  "choices": [
+   "A. The information would make an interesting social media post",
+   "B. Another professional requests the file out of general interest",
+   "C. Disclosure is required by law, as in mandated abuse reporting",
+   "D. A colleague casually asks how a recognizable case is going"
+  ]
+ },
+ {
+  "id": "d95q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.17 · RIRD",
+  "q": "In a typical RIRD procedure for vocal stereotypy, redirection continues until the individual:",
+  "choices": [
+   "A. Has been ignored for a fixed interval of sixty seconds",
+   "B. Emits a number of appropriate responses without stereotypy",
+   "C. Is placed in a brief exclusionary timeout from the activity",
+   "D. Receives a preferred edible for a sustained period of silence"
+  ]
+ },
+ {
+  "id": "d101q3",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.5",
+  "q": "Extinguished attention-maintained disruption returns immediately after a visitor spontaneously hugs the client mid-session. The mechanism is:",
+  "choices": [
+   "A. Resurgence produced by extinction of the alternative",
+   "B. Spontaneous recovery after the passage of time",
+   "C. Reinstatement from a free delivery of the reinforcer",
+   "D. Renewal produced by a change in the treatment context"
+  ]
+ },
+ {
+  "id": "d104q2",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.8 · Scope of Practice",
+  "q": "A behavior analyst is asked to design a language intervention for a client with complex AAC needs who has had no prior SLP involvement. The most appropriate course of action is:",
+  "choices": [
+   "A. Decline the case entirely and refer the client elsewhere",
+   "B. Collaborate with a speech-language pathologist on the AAC system",
+   "C. Conduct a verbal behavior assessment and proceed independently",
+   "D. Implement a verbal behavior program using the BCBA's own training"
+  ]
+ },
+ {
+  "id": "d109q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Interpretation",
+  "q": "An undifferentiated functional analysis outcome (similar responding across all conditions, including control) should lead the analyst to:",
+  "choices": [
+   "A. Conclude the behavior has no function and discontinue assessment",
+   "B. Immediately implement a punishment-based reduction plan",
+   "C. Conclude the behavior is maintained by attention by default",
+   "D. Modify the analysis and repeat it before drawing conclusions"
+  ]
+ }
+]

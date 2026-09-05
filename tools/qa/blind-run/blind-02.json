@@ -1,0 +1,266 @@
+[
+ {
+  "id": "d1q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.5",
+  "q": "Lerman and Iwata (1993) found that, compared to functional analysis, descriptive assessments frequently:",
+  "choices": [
+   "A. Yielded enough evidence to design treatment without functional analysis",
+   "B. Isolated the maintaining variable as precisely as a functional analysis",
+   "C. Misidentified or entirely failed to detect the maintaining variable",
+   "D. Produced functional conclusions equivalent to the analysis"
+  ]
+ },
+ {
+  "id": "d4q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.1",
+  "q": "The primary limitation of indirect assessment for identifying behavioral function is:",
+  "choices": [
+   "A. It depends on informant recall, which is systematically biased",
+   "B. It is valid only for self-injurious and stereotypic behavior",
+   "C. It must be conducted only after direct observation is complete",
+   "D. It requires administration training that most BCBAs do not hold"
+  ]
+ },
+ {
+  "id": "d9q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.5 · MO and SD Interventions",
+  "q": "Noncontingent reinforcement reduces problem behavior through which mechanism?",
+  "choices": [
+   "A. Abolishing the establishing operation for the maintaining reinforcer (MO)",
+   "B. Signaling that reinforcement is now available for appropriate behavior (SD)",
+   "C. Delivering a mild aversive consequence each time problem behavior occurs",
+   "D. Increasing the physical effort required to emit the problem behavior"
+  ]
+ },
+ {
+  "id": "d17q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.18",
+  "q": "A client continues to engage in a behavior described in a rule even after the described reinforcer is no longer being delivered. This most likely illustrates:",
+  "choices": [
+   "A. Schedule-induced behavior produced by intermittent delivery",
+   "B. Behavioral contrast from a change in another component",
+   "C. Insensitivity to contingencies typical of rule following",
+   "D. Spontaneous recovery after extinction has occurred"
+  ]
+ },
+ {
+  "id": "d24q1",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.10/C.11",
+  "q": "A phase change line in a single-case graph is placed:",
+  "choices": [
+   "A. Through the midpoint of each condition to mark its median level",
+   "B. Directly through the first data point collected in the new condition",
+   "C. Only when the change in level reaches statistical significance",
+   "D. Between the last point of one condition and the first of the next"
+  ]
+ },
+ {
+  "id": "d30q2",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.10",
+  "q": "Programming instruction in a client's home language primarily protects:",
+  "choices": [
+   "A. The funder's documentation and eligibility requirements",
+   "B. The analyst's scheduling efficiency across the caseload",
+   "C. Acquisition and the family's ability to maintain the skill",
+   "D. The family's comfort during sessions rather than skill acquisition"
+  ]
+ },
+ {
+  "id": "d35q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.18",
+  "q": "During escape extinction, a client begins hitting staff — a behavior absent in baseline. This is best described as:",
+  "choices": [
+   "A. Spontaneous recovery of the previously extinguished response",
+   "B. Evidence the escape function was misidentified in assessment",
+   "C. Extinction-induced aggression, a predictable elicited effect",
+   "D. Behavioral contrast, with responding rising in an untreated setting"
+  ]
+ },
+ {
+  "id": "d38q2",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.2",
+  "q": "According to Horner et al. (2005), an evidence-based practice in special education requires a minimum of:",
+  "choices": [
+   "A. Three peer-reviewed publications produced by the same research team",
+   "B. Five single-subject studies from at least three research groups",
+   "C. Ten replications with experimental control across two research groups",
+   "D. One well-controlled randomized trial with 20 participants"
+  ]
+ },
+ {
+  "id": "d45q3",
+  "domain": "Experimental Design",
+  "taskCode": "D.7 · Multielement",
+  "q": "An adapted alternating treatments design assigns separate, equivalent target sets to each procedure primarily to:",
+  "choices": [
+   "A. Remove the need to counterbalance order or signal conditions",
+   "B. Permit a return to baseline phase between alternating conditions",
+   "C. Keep learning under one procedure from contaminating the other",
+   "D. Cut the number of sessions the comparison requires in half"
+  ]
+ },
+ {
+  "id": "d54q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.13",
+  "q": "The defining structural feature that distinguishes a discrete trial from a free-operant arrangement is:",
+  "choices": [
+   "A. The collection of trial-by-trial behavioral data records",
+   "B. An instructor-paced unit bounded by an intertrial interval",
+   "C. The use of a discriminative stimulus to occasion responding",
+   "D. The delivery of reinforcement after correct responses"
+  ]
+ },
+ {
+  "id": "d59q1",
+  "domain": "Experimental Design",
+  "taskCode": "D.7 · Changing Criterion",
+  "q": "The changing criterion design demonstrates experimental control by showing that behavior:",
+  "choices": [
+   "A. Changes stepwise to match each successively adjusted criterion",
+   "B. Changes only in the tier where the intervention has been introduced",
+   "C. Differs across two rapidly alternated treatment conditions",
+   "D. Reverses toward baseline levels when the intervention is withdrawn"
+  ]
+ },
+ {
+  "id": "d66q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.7/G.8",
+  "q": "Progressive time delay as a prompt fading strategy involves:",
+  "choices": [
+   "A. Alternating randomly between prompt levels across trials",
+   "B. Gradually increasing the interval between SD and prompt",
+   "C. Removing the prompt abruptly once the criterion is met",
+   "D. Immediately delivering a full physical prompt on every trial"
+  ]
+ },
+ {
+  "id": "d73q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.10 · Instructions and Rules",
+  "q": "Compliance that collapses as soon as the instruction-giver leaves the room most likely indicates that the behavior:",
+  "choices": [
+   "A. Is contingency-shaped rather than controlled by a stated rule",
+   "B. Has come under generalized imitative control of a peer model",
+   "C. Was maintained solely by the instruction, not by consequences",
+   "D. Has already contacted robust natural reinforcement in that setting"
+  ]
+ },
+ {
+  "id": "d77q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.10 · Contingency Contracting",
+  "q": "Which is a required component of a well-constructed contingency contract?",
+  "choices": [
+   "A. A completed functional analysis appended to the document",
+   "B. A clear, observable target behavior and its consequence",
+   "C. A written guarantee that the behavior will generalize",
+   "D. A formal clinical diagnosis of the signing individual"
+  ]
+ },
+ {
+  "id": "d81q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.14",
+  "q": "Guttman and Kalish (1956) demonstrated that the stimulus generalization gradient:",
+  "choices": [
+   "A. Peaks at the training stimulus, declining as the test stimulus diverges",
+   "B. Appears only for visual dimensions such as the wavelength of light",
+   "C. Becomes steeper as more training exemplars are added in acquisition",
+   "D. Is flat across the dimension whenever training stimulus intensity is high"
+  ]
+ },
+ {
+  "id": "d84q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.12",
+  "q": "According to Spooner and Spooner (1984), which chaining procedure is universally superior?",
+  "choices": [
+   "A. Backward chaining, because the terminal reinforcer comes first",
+   "B. No procedure has demonstrated superiority across all tasks",
+   "C. Total task presentation, because every step is practiced",
+   "D. Forward chaining, because training follows the natural order"
+  ]
+ },
+ {
+  "id": "d88q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.15 · Stokes and Baer",
+  "q": "Using 'indiscriminable contingencies' as a generalization strategy involves:",
+  "choices": [
+   "A. Thinning reinforcement so the learner cannot predict its delivery",
+   "B. Using the same tangible reinforcer in every generalization setting",
+   "C. Running generalization probes without the primary therapist present",
+   "D. Reinforcing every correct response to maximize the learning rate"
+  ]
+ },
+ {
+  "id": "d93q1",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.7",
+  "q": "A multiple relationship in behavior-analytic practice exists when the behavior analyst:",
+  "choices": [
+   "A. Supervises more than one RBT at the same site",
+   "B. Uses more than one intervention with the same client",
+   "C. Has more than one client on the caseload at a time",
+   "D. Occupies more than one role with the same person"
+  ]
+ },
+ {
+  "id": "d99q3",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.5",
+  "q": "Which social media action most directly risks converting a public statement into service delivery?",
+  "choices": [
+   "A. Posting general information about how reinforcement works",
+   "B. Listing an accurate BCBA certification number on a profile page",
+   "C. Giving an identifiable parent case-specific advice in comments",
+   "D. Sharing a summary of a published study on the practice website"
+  ]
+ },
+ {
+  "id": "d103q1",
+  "domain": "Experimental Design",
+  "taskCode": "D.6",
+  "q": "Baseline data for aggression show a steady downward trend before treatment begins. Introducing the intervention now would primarily:",
+  "choices": [
+   "A. Make later decreases impossible to attribute to treatment",
+   "B. Reduce variability in the treatment phase data path",
+   "C. Improve the immediacy of effect at the phase change",
+   "D. Strengthen the eventual demonstration of experimental control"
+  ]
+ },
+ {
+  "id": "d106q1",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.3",
+  "q": "A supervisor gives every supervisee exactly two observation hours per month regardless of skill level. This practice:",
+  "choices": [
+   "A. Confuses equal treatment with equitable access to supervision",
+   "B. Violates the BACB minimum supervision hour requirement",
+   "C. Removes the need for criterion-referenced evaluation rubrics",
+   "D. Ensures equity because every supervisee receives identical time"
+  ]
+ },
+ {
+  "id": "d111q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.4",
+  "q": "Water deprivation functions as a motivating operation primarily because it:",
+  "choices": [
+   "A. Raises the reinforcing value of water and evokes drinking",
+   "B. Establishes water as a discriminative stimulus for approach",
+   "C. Punishes non-drinking by producing an aversive state",
+   "D. Signals that water is currently available in the environment"
+  ]
+ }
+]

@@ -1,0 +1,254 @@
+[
+ {
+  "id": "d2q3",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.2",
+  "q": "Managing supervisory volume (the number of supervisees) matters primarily because:",
+  "choices": [
+   "A. Supervision quality tracks the supervisor's experience rather than caseload size",
+   "B. Excessive volume dilutes the direct observation and feedback each supervisee gets",
+   "C. The BACB sets caseload caps in order to standardize supervision billing",
+   "D. Carrying more supervisees improves quality by widening the supervisor's experience"
+  ]
+ },
+ {
+  "id": "d8q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.12/B.13",
+  "q": "Terrace (1963) demonstrated that errorless discrimination training differs from traditional discrimination training primarily in that it:",
+  "choices": [
+   "A. Uses extinction to suppress SΔ responses after they occur",
+   "B. Eliminates the need for differential reinforcement entirely",
+   "C. Requires many more training trials to establish control",
+   "D. Introduces the SΔ at minimal intensity to prevent errors"
+  ]
+ },
+ {
+  "id": "d15q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.8",
+  "q": "According to Iwata et al. (1994), extinction is best understood as defined by:",
+  "choices": [
+   "A. The length of time the behavior is permitted to continue unchecked",
+   "B. Withholding the specific reinforcer that maintains the behavior",
+   "C. Delivery of an aversive consequence following each occurrence",
+   "D. A single fixed procedure, planned ignoring, used for every behavior"
+  ]
+ },
+ {
+  "id": "d22q2",
+  "domain": "Behaviorism and Philosophical Foundations",
+  "taskCode": "A.1",
+  "q": "Behavior analysis rejects mentalistic explanations primarily because:",
+  "choices": [
+   "A. Mental events do not exist and private events are fictions",
+   "B. Cognitive psychology is a competing discipline with rival claims",
+   "C. Mental explanations are incompatible with positive reinforcement",
+   "D. Mental constructs are not observable or directly manipulable"
+  ]
+ },
+ {
+  "id": "d29q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.3",
+  "q": "A child cries when entering a hospital where they previously experienced a painful procedure, even before any medical procedure begins. This most likely illustrates:",
+  "choices": [
+   "A. Respondent behavior — the hospital is a conditioned aversive stimulus",
+   "B. Stimulus generalization from a treatment room to an untrained new setting",
+   "C. Operant escape maintained by termination of the medical procedure",
+   "D. Operant crying maintained by caregiver attention in the waiting room"
+  ]
+ },
+ {
+  "id": "d34q2",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.7 · Progress Monitoring",
+  "q": "A client is not making progress on a target behavior. Before modifying the intervention, the BCBA should first:",
+  "choices": [
+   "A. Switch to a different reinforcer to address likely satiation effects",
+   "B. Reassess behavioral function to determine whether the hypothesis changed",
+   "C. Increase session frequency to accelerate the rate of acquisition",
+   "D. Evaluate treatment integrity before concluding the plan has failed"
+  ]
+ },
+ {
+  "id": "d37q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.7",
+  "q": "A learner's assessment indicates the primary mealtime barrier is a suspected swallowing difficulty. The BCBA should:",
+  "choices": [
+   "A. Proceed with the behavioral feeding protocol as originally written",
+   "B. Ask the caregiver to decide whether the program should continue",
+   "C. Discharge the client because feeding falls outside ABA scope",
+   "D. Refer to a speech-language pathologist and coordinate treatment"
+  ]
+ },
+ {
+  "id": "d41q3",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.8",
+  "q": "An IOA of 75% would generally be considered:",
+  "choices": [
+   "A. Below the 80% threshold and requiring corrective action",
+   "B. Equivalent to 75% accuracy against a true measure",
+   "C. Acceptable for low-rate behaviors but not high-rate ones",
+   "D. Acceptable for both clinical use and publication data"
+  ]
+ },
+ {
+  "id": "d49q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "B.5/G.17",
+  "q": "A client loses 5 tokens following each instance of off-task behavior. Over the following weeks, off-task behavior decreases. This is an example of:",
+  "choices": [
+   "A. Positive punishment through a reprimand",
+   "B. Negative reinforcement of on-task behavior",
+   "C. Extinction of token-maintained behavior",
+   "D. Negative punishment through response cost"
+  ]
+ },
+ {
+  "id": "d57q2",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.1",
+  "q": "A BCBA's supervisory responsibility for services delivered by an RBT under their authorization means:",
+  "choices": [
+   "A. The BCBA must be physically present for every session delivered",
+   "B. Responsibility is divided equally between the BCBA and RBT",
+   "C. The RBT alone is responsible for errors made during implementation",
+   "D. The BCBA remains accountable for the quality of those services"
+  ]
+ },
+ {
+  "id": "d65q3",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.1",
+  "q": "A behavior intervention plan addresses only hand-raising as an attention-seeking behavior while leaving calling-out and tapping unaddressed. This plan is most likely to:",
+  "choices": [
+   "A. Produce generalized reduction across all attention-seeking forms",
+   "B. Be sufficient as long as extinction is applied with full fidelity",
+   "C. Fail because untreated class members still produce attention",
+   "D. Produce complete reduction across the entire response class"
+  ]
+ },
+ {
+  "id": "d72q3",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.1 · Goal Selection",
+  "q": "Incorporating stakeholder input into goal selection is important primarily because it:",
+  "choices": [
+   "A. Helps ensure goals are socially valid and truly valued",
+   "B. Guarantees the intervention will produce durable effects",
+   "C. Replaces the need for formal assessment data entirely",
+   "D. Transfers clinical responsibility for goals to the family"
+  ]
+ },
+ {
+  "id": "d75q3",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.1 · Operational Definitions",
+  "q": "Which operational definition is most complete for a deceleration target?",
+  "choices": [
+   "A. 'Aggression: any action that harms another person or appears intended to cause them harm'",
+   "B. 'Aggression: hitting — the client strikes another person with an open or closed hand'",
+   "C. 'Aggression: hitting, kicking, or biting others, recorded throughout instructional and play sessions'",
+   "D. 'Aggression: hand or foot contact with a person; onset at contact, offset after 3 s without contact'"
+  ]
+ },
+ {
+  "id": "d80q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.3",
+  "q": "A 17-year-old with limited vocal speech scores at VB-MAPP Level 2. Targets should be sequenced primarily by:",
+  "choices": [
+   "A. The developmental order in which protocol items are listed",
+   "B. Chronological age norms derived from same-age typical peers",
+   "C. The VB-MAPP domain in which he already scored highest",
+   "D. Immediate functional value in his current environments"
+  ]
+ },
+ {
+  "id": "d84q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.12",
+  "q": "In a behavioral chain, each completed step functions as:",
+  "choices": [
+   "A. An unconditioned reinforcer delivered at the chain's end",
+   "B. A prompt that occasions the terminal behavior directly",
+   "C. Both an SD for the next step and a conditioned reinforcer",
+   "D. A punisher that weakens the step the learner just finished"
+  ]
+ },
+ {
+  "id": "d87q3",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.2",
+  "q": "A supervisee continues a procedure documented as ineffective because the family prefers it. The principal client-level risk is:",
+  "choices": [
+   "A. Reduced revenue and billable hours for the agency",
+   "B. Treatment time and funded hours consumed without benefit",
+   "C. Damage to the profession's standing with the public",
+   "D. Suspension or revocation of the analyst's BACB certification"
+  ]
+ },
+ {
+  "id": "d91q3",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.4",
+  "q": "The guiding principle behind confidentiality obligations is best described as:",
+  "choices": [
+   "A. Protected client information belongs to the client; the analyst is its steward",
+   "B. Confidentiality obligations end once the client's treatment is terminated",
+   "C. Confidentiality covers written records but not informal case conversations",
+   "D. Confidential records belong to the behavior analyst who created and stores them"
+  ]
+ },
+ {
+  "id": "d95q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.17 · RIRD",
+  "q": "Conventional socially mediated extinction is often impractical for the behavior RIRD targets because:",
+  "choices": [
+   "A. The behavior occurs only during instructional demand contexts",
+   "B. The behavior is always maintained by more than one function",
+   "C. The maintaining reinforcer is automatic, not socially mediated",
+   "D. The behavior is too dangerous to permit continued direct observation"
+  ]
+ },
+ {
+  "id": "d102q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.9",
+  "q": "In Baer, Peterson, and Sherman (1967), untrained imitative responses were maintained even without direct reinforcement primarily because:",
+  "choices": [
+   "A. Similarity to the model had become a conditioned reinforcer",
+   "B. The models were faded gradually in intensity across trials",
+   "C. The untrained responses were physically prompted on every trial",
+   "D. The children were reinforced on a thin fixed-ratio schedule"
+  ]
+ },
+ {
+  "id": "d105q1",
+  "domain": "Behaviorism and Philosophical Foundations",
+  "taskCode": "A.5",
+  "q": "The three levels at which Wolf (1978) proposed assessing social validity are the social:",
+  "choices": [
+   "A. History, maturation, and testing as threats to internal validity",
+   "B. Significance of goals, appropriateness of procedures, value of effects",
+   "C. Reliability, validity, and generalizability of the collected outcome data",
+   "D. Cost, staffing efficiency, and long-term durability of the intervention"
+  ]
+ },
+ {
+  "id": "d109q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Interpretation",
+  "q": "Hagopian et al. (1997) contributed structured interpretation criteria for functional analysis primarily to improve:",
+  "choices": [
+   "A. The interrater reliability of FA data interpretation",
+   "B. The reinforcer magnitude delivered in test conditions",
+   "C. The social validity of the goals selected for treatment",
+   "D. The speed with which analysis conditions can be run"
+  ]
+ }
+]

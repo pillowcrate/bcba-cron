@@ -1,0 +1,16 @@
+[
+ {
+  "id": "d54q1",
+  "pick": "A",
+  "confidence": "high",
+  "defensible": ["A"],
+  "note": "A states the substantive point directly: the discrete trial is a discrete, instructor-paced unit with a defined start and end marked by an intertrial interval, which is exactly what free-operant arrangements lack; it is not merely the last option standing. B and D are true of both arrangements, so neither distinguishes them. C is a correlated measurement practice, not a structural feature, and free-operant work is also measured (rate/duration), so it is not defensible as the key."
+ },
+ {
+  "id": "d84q2",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "D does state the actual advantage rather than a stub: because the trainer completes all prior steps, the learner performs the final step and contacts the terminal/natural reinforcer on every trial from the very first one. A is false (backward chaining still requires a task analysis), B is a categorical efficiency claim the comparative literature does not support, and C is wrong (total-task is the method usually favored for natural routines). No distractor is accidentally true."
+ }
+]

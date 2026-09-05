@@ -3,7 +3,7 @@
 Scripts that measure and fix **tells** in the BCBA newsletter question bank — patterns
 that let a test-taker pick the right answer without knowing the material.
 
-These were written during the Sept 2025 pass that cut the longest-answer tell from
+These were written during the Sept 2026 pass that cut the longest-answer tell from
 71% to 33%. They lived in `.bcba-build/` (gitignored) and were nearly lost; they are
 tracked here now.
 
@@ -60,11 +60,35 @@ thing that catches this is answering the questions cold, with no answer key.
 Last run: 129/129 agreement with the key, 2 flagged as having a second defensible
 answer (`d9q2`, `d75q3`).
 
+## blind-run/ — the preserved record of that run
+
+`blind-run/` holds the **authored** blind picks (`answers-*.json` — each with a
+confidence rating and prose reasoning) plus `applied-ids.json`, the blind question sets,
+and their keys. These are the one thing here that **no script can regenerate**: they are
+human judgement, not derived data. `make-blind.mjs` also hard-requires `applied-ids.json`.
+
+To reproduce the 129/129 result from a clean checkout:
+
+```
+node tools/qa/extract-targets.mjs      # regenerates all-questions.json
+cp tools/qa/blind-run/* .bcba-build/   # restores the authored answers
+node tools/qa/score-blind.mjs
+```
+
+Verified working from a `git archive` checkout on 2026-09-05.
+
 ## Gotchas
 
-- **The write scripts clobber.** Re-running `make-blind.mjs` regenerates
-  `blind-key.json`, which silently invalidates the option mapping for any existing
-  `answers-*.json`. Score first, or work on a copy.
+- **Re-running `make-blind.mjs` silently invalidates old answers — but not the way you'd
+  expect.** The option shuffle is a pure function of the question id, so `blind-key.json`
+  regenerates byte-identical and is *not* the hazard. The hazard is that `make-blind.mjs`
+  reads the **current** `route.js`, so the question *text* in `blind-NN.json` changes
+  whenever questions change. Old `answers-*.json` then refer to wording that no longer
+  exists, and `score-blind.mjs` will score them anyway without warning. Score before
+  regenerating, or work on a copy.
+- **`score-blind.mjs` hardcodes its denominator** (`... / 129`) but computes the
+  percentage from the answers it actually loaded. If answer files are missing it prints
+  something like "64 / 129" followed by "100.0% agreement". Check both numbers.
 - **`applied-ids.json` is per-run.** `make-blind.mjs` requires it.
   `scan-grammar-tell.mjs` uses it only to separate "questions I just changed" from
   pre-existing flags, and degrades gracefully when it's missing.
@@ -77,10 +101,18 @@ answer (`d9q2`, `d75q3`).
 
 ## archive/
 
-One-shot scripts already applied to `route.js`, kept as the record of what was changed:
-the `fix-*.mjs` targeted repairs, `apply-length-fix.mjs`, and `merge.js` / `polish*.js`
-from the original authoring run. Also the authoring and review briefs (`BRIEF*.md`),
-`ASSIGNMENTS.md`, and `STATUS.md`.
+One-shot scripts already applied to `route.js`, kept as a **record of what was changed,
+not a runnable pipeline**. The `fix-*.mjs` targeted repairs re-run safely (they check for
+a unique match and exit non-zero otherwise), but `merge.js` and `polish*.js` cannot run at
+all — they need `order.json`, `remap.json` and `out_g*.js`, which were not kept.
 
-Not preserved: the bulk derived artifacts (`route.*.js` snapshots, `out_g*.js`, batch
-and answer JSON). Those regenerate from `extract-targets.mjs` or exist in git history.
+Also here: the authoring and review briefs (`BRIEF*.md`), `ASSIGNMENTS.md`, and
+`STATUS.md`. **These are point-in-time documents and some are already stale** — e.g.
+`STATUS.md` lists `START_DATE` as a required production env var, which was retired in
+`bc32ade`. Read them as history, not as current instructions.
+
+Not preserved: the bulk derived artifacts — `route.*.js` snapshots (~620KB each),
+`out_g*.js`, `all-questions.json` and the `batch-*.json` splits. All of those regenerate
+from `extract-targets.mjs` against the current `route.js`. Note that `.bcba-build/` was
+never tracked in git, so nothing left behind is recoverable from history — that is
+exactly why the authored answers in `blind-run/` are committed rather than left there.

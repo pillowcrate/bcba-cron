@@ -1,0 +1,15 @@
+[
+ {
+  "id": "d75q3",
+  "pick": "B",
+  "confidence": "high",
+  "defensible": ["B"]
+ },
+ {
+  "id": "d9q2",
+  "pick": "D",
+  "confidence": "medium",
+  "defensible": ["D", "A"],
+  "note": "D is the standard momentum/stimulus-control account, but A is arguable because dense reinforcement across the high-p run is commonly described as an abolishing operation for escape from demands, which is why high-p is used for escape-maintained noncompliance."
+ }
+]

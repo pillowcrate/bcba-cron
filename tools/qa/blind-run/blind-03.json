@@ -1,0 +1,266 @@
+[
+ {
+  "id": "d1q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.5",
+  "q": "The primary distinction between ABC recording and functional analysis is that:",
+  "choices": [
+   "A. Functional analysis requires more trained staff to run its conditions",
+   "B. ABC recording shows correlation; functional analysis shows causation",
+   "C. ABC recording is valid only for escape-maintained behavior",
+   "D. ABC recording uses shorter observation intervals than analog sessions"
+  ]
+ },
+ {
+  "id": "d4q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.1",
+  "q": "Using indirect assessment alone to design a restrictive behavior intervention plan is problematic primarily because:",
+  "choices": [
+   "A. It violates an IDEA mandate that functional analysis precede every BIP",
+   "B. It fails the BACB standard that assessment fit the presenting problem",
+   "C. Indirect assessment cannot be conducted in naturalistic settings",
+   "D. Indirect assessments are not recognized by insurance funders"
+  ]
+ },
+ {
+  "id": "d9q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.5 · MO and SD Interventions",
+  "q": "A high-probability (high-p) request sequence builds compliance primarily by:",
+  "choices": [
+   "A. Altering stimulus control with a run of reinforced compliance",
+   "B. Abolishing the motivating operation for escape from demands",
+   "C. Changing reinforcer value through deprivation before the demand",
+   "D. Delivering noncontingent attention on a fixed-time schedule"
+  ]
+ },
+ {
+  "id": "d18q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.5 · Antecedent Interventions",
+  "q": "A setting event differs from a discriminative stimulus primarily in that a setting event:",
+  "choices": [
+   "A. Functions as a conditioned reinforcer for appropriate behavior",
+   "B. Is always an internal biological state rather than an environmental event",
+   "C. Alters the probability of behavior without directly evoking it",
+   "D. Directly evokes the problem behavior at the moment it is presented"
+  ]
+ },
+ {
+  "id": "d24q3",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.10/C.11",
+  "q": "The primary advantage of semi-logarithmic (Standard Celeration Chart) display over standard equal-interval graphs is that:",
+  "choices": [
+   "A. It is the only display format that supports visual analysis",
+   "B. It shows proportional rate changes as equal vertical distances",
+   "C. It eliminates session-to-session variability from the data path",
+   "D. It is easier to construct by hand than equal-interval paper"
+  ]
+ },
+ {
+  "id": "d31q1",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.7/B.8",
+  "q": "A generalized conditioned reinforcer remains effective across many different states of deprivation and satiation because it:",
+  "choices": [
+   "A. Functions as an unconditioned reinforcer once pairing is complete",
+   "B. Is exchanged for a single highly preferred backup reinforcer",
+   "C. Is paired with many different backups and does not depend on one MO",
+   "D. Is biologically significant to the species without a learning history"
+  ]
+ },
+ {
+  "id": "d35q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.18",
+  "q": "Evaluation of a behavior-change procedure's side effects should include:",
+  "choices": [
+   "A. Only effects that caregivers spontaneously report to the analyst",
+   "B. Effects on the target behavior alone, tracked across sessions",
+   "C. Adverse and beneficial collateral effects, measured directly",
+   "D. Only effects that increase the rate of the problem behavior"
+  ]
+ },
+ {
+  "id": "d39q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.22",
+  "q": "Behavioral momentum theory holds that resistance to change is primarily a function of:",
+  "choices": [
+   "A. The topography and effort of the response being measured",
+   "B. The density of the punishment schedule currently in effect",
+   "C. The rate of reinforcement correlated with the stimulus context",
+   "D. The response-reinforcer contingency arranged for the target response"
+  ]
+ },
+ {
+  "id": "d46q1",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.1",
+  "q": "Which definition of elopement best satisfies the objective, clear, and complete tests?",
+  "choices": [
+   "A. Crossing the marked classroom threshold unaccompanied",
+   "B. Any attempt to escape or elope from the classroom area",
+   "C. Wandering off from the group because he is feeling anxious",
+   "D. Leaving the area at any time without adult permission"
+  ]
+ },
+ {
+  "id": "d54q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.13",
+  "q": "A clinician establishes a new tact in massed discrete trials, then moves to capturing the response during play to promote generalization. This sequence reflects:",
+  "choices": [
+   "A. A procedural error, because discrete-trial and free-operant formats cannot be combined",
+   "B. A changing criterion design, with play serving as the new response criterion",
+   "C. Multiple-treatment interference confounding the two teaching arrangements",
+   "D. Discrete-trial acquisition followed by free-operant teaching for generalization"
+  ]
+ },
+ {
+  "id": "d62q3",
+  "domain": "Experimental Design",
+  "taskCode": "D.8",
+  "q": "The principal threat to interpretation when two treatments alternate rapidly within a multielement design is:",
+  "choices": [
+   "A. Regression to the mean across repeated measures",
+   "B. Observer drift across the study's later sessions",
+   "C. Insufficient trials to reach the mastery criterion",
+   "D. Multiple-treatment interference across conditions"
+  ]
+ },
+ {
+  "id": "d70q1",
+  "domain": "Experimental Design",
+  "taskCode": "D.7 · Reversal",
+  "q": "In an ABAB design, experimental control is demonstrated when:",
+  "choices": [
+   "A. Behavior fails to reverse when the intervention is withdrawn",
+   "B. Behavior covaries with the IV across all phase changes",
+   "C. The IV is introduced at least three separate times",
+   "D. Behavior improves during the first B phase of the design only"
+  ]
+ },
+ {
+  "id": "d74q1",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.24",
+  "q": "A student sees a classmate praised for raising her hand and begins doing so the next day. This is:",
+  "choices": [
+   "A. Observational learning through vicarious reinforcement",
+   "B. Echoic behavior under formal similarity to the model",
+   "C. Generalized imitation of a novel, untrained motor model",
+   "D. Imitation, because the response topographies match the model"
+  ]
+ },
+ {
+  "id": "d77q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.10 · Contingency Contracting",
+  "q": "One behavioral mechanism by which a signed contingency contract increases follow-through is that:",
+  "choices": [
+   "A. It acts as a contingency-specifying rule and recruits social consequences",
+   "B. It converts a skill deficit into a performance deficit without direct teaching",
+   "C. It prevents the individual from helping negotiate the terms or criterion",
+   "D. It removes any need to actually deliver the reinforcer specified in the contract"
+  ]
+ },
+ {
+  "id": "d81q3",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.14",
+  "q": "Response generalization in behavior reduction contexts is clinically significant because:",
+  "choices": [
+   "A. New topographies may emerge within the same response class",
+   "B. It removes the need for extinction in differential reinforcement",
+   "C. It guarantees that FCT responses transfer to new settings",
+   "D. It removes any need to program multiple exemplar training"
+  ]
+ },
+ {
+  "id": "d86q1",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.7 · Effectiveness",
+  "q": "In visual analysis of single-case data, 'overlap' between adjacent phases refers to:",
+  "choices": [
+   "A. The similarity of variability between two adjacent conditions",
+   "B. The number of data points shared across the two adjacent conditions",
+   "C. The degree to which the trend lines of adjacent phases intersect",
+   "D. The proportion of points falling within the adjacent phase's range"
+  ]
+ },
+ {
+  "id": "d89q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.16",
+  "q": "A CMO-T (transitive conditioned motivating operation) is best described as:",
+  "choices": [
+   "A. A stimulus whose presence makes something else a reinforcer",
+   "B. An establishing operation requiring no learning history",
+   "C. A stimulus paired with another MO whose effects it acquires",
+   "D. A stimulus that has been paired with a worsening of conditions"
+  ]
+ },
+ {
+  "id": "d93q2",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.7",
+  "q": "When a multiple relationship cannot be avoided (for example, in a small rural community), the Ethics Code directs the behavior analyst to:",
+  "choices": [
+   "A. Take steps to mitigate the risk, starting with clarifying roles",
+   "B. Transfer ethical responsibility to the client's caregivers",
+   "C. Immediately terminate all services and refer the client elsewhere",
+   "D. Proceed without documenting or clarifying the overlapping roles"
+  ]
+ },
+ {
+  "id": "d100q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.4",
+  "q": "A token economy without a fading plan is problematic primarily because:",
+  "choices": [
+   "A. Behavior stays dependent on tokens rather than natural reinforcers",
+   "B. Token economies cannot be run in naturalistic community settings",
+   "C. The exchange schedule is legally required to thin over time",
+   "D. It violates the least-restrictive-alternative principle in the Code"
+  ]
+ },
+ {
+  "id": "d103q2",
+  "domain": "Experimental Design",
+  "taskCode": "D.6",
+  "q": "In an A-B-A-B, responding changes immediately at every phase change with no overlap between adjacent phases. This shows:",
+  "choices": [
+   "A. Regression to the mean across the four repeated conditions",
+   "B. Strong experimental control across replicated conditions",
+   "C. Poor social validity, since the change was abrupt",
+   "D. A Type II error produced by excessive baseline variability"
+  ]
+ },
+ {
+  "id": "d107q1",
+  "domain": "Experimental Design",
+  "taskCode": "D.7 · Multiple Baseline",
+  "q": "A multiple baseline design demonstrates experimental control by:",
+  "choices": [
+   "A. Withdrawing the IV and showing the behavior reverses to baseline",
+   "B. Raising the reinforcement criterion in successive graduated steps",
+   "C. Comparing two interventions head-to-head in the same phase",
+   "D. Showing that behavior changes only when the IV reaches that tier"
+  ]
+ },
+ {
+  "id": "d111q3",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.4",
+  "q": "Non-contingent reinforcement (NCR) reduces problem behavior primarily by:",
+  "choices": [
+   "A. Increasing the response effort required for problem behavior",
+   "B. Abolishing the MO for the behavior's maintaining reinforcer",
+   "C. Establishing the alternative response as the new SD",
+   "D. Punishing the problem behavior each time it is emitted"
+  ]
+ }
+]

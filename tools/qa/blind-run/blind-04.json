@@ -1,0 +1,254 @@
+[
+ {
+  "id": "d2q1",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.2",
+  "q": "Competency-based supervision means that a supervisee's advancement is based primarily on:",
+  "choices": [
+   "A. The supervisee's self-reported confidence in their own skills",
+   "B. Skill demonstrated under direct observation of performance",
+   "C. The total number of supervision hours accumulated to date",
+   "D. Exposure to all required training content regardless of performance"
+  ]
+ },
+ {
+  "id": "d7q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.3",
+  "q": "NCR is classified as an antecedent intervention primarily because:",
+  "choices": [
+   "A. It punishes each occurrence of the problem behavior directly",
+   "B. Free, frequent access abolishes the reinforcer's momentary value",
+   "C. It withholds the maintaining reinforcer to weaken responding",
+   "D. Its deliveries all occur before the session rather than during it"
+  ]
+ },
+ {
+  "id": "d12q1",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.20",
+  "q": "A child says “juice” while thirsty and while looking at a cup of juice. This response is best described as:",
+  "choices": [
+   "A. A pure tact evoked solely by the visible cup of juice",
+   "B. An impure operant under convergent multiple control",
+   "C. An intraverbal under the control of a verbal stimulus",
+   "D. A pure mand evoked solely by the deprivation state"
+  ]
+ },
+ {
+  "id": "d20q1",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.16 · Self-Management",
+  "q": "In the behavior-analytic account, self-management is best described as:",
+  "choices": [
+   "A. Behavior that occurs in the absence of any environmental control",
+   "B. A purely cognitive process that operates outside operant principles",
+   "C. A controlling response that alters a controlled (target) response",
+   "D. Exertion of willpower by an inner self that overrides competing impulses"
+  ]
+ },
+ {
+  "id": "d28q2",
+  "domain": "Experimental Design",
+  "taskCode": "D.5",
+  "q": "Single-case researchers establish the generality of findings primarily through:",
+  "choices": [
+   "A. Systematic replication across participants and settings",
+   "B. Increasing the number of baseline sessions collected",
+   "C. Inferential statistics applied to group mean differences",
+   "D. Random sampling of participants from the target population"
+  ]
+ },
+ {
+  "id": "d32q2",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.6",
+  "q": "A BCBA relocates mid-treatment. The most important obligation to the current client is to:",
+  "choices": [
+   "A. Refer the family to the funder to find a new provider",
+   "B. Continue treating remotely regardless of client need",
+   "C. Arrange transfer to a qualified provider with records sent",
+   "D. Stop services on the final workday and close the client record"
+  ]
+ },
+ {
+  "id": "d36q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.5 · Mand Training",
+  "q": "A child reliably says \"car\" only after the therapist asks \"What do you want?\" but never reaches for or requests the car otherwise when motivated. This most likely indicates the response is functioning as a(n):",
+  "choices": [
+   "A. A tact evoked by the sight of the car in the room",
+   "B. A generalized listener response to the therapist's question",
+   "C. An intraverbal or echoic under instructional control",
+   "D. A pure mand evoked by motivating operation control"
+  ]
+ },
+ {
+  "id": "d40q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.15 · Multiple Exemplars",
+  "q": "Multiple exemplar training promotes stimulus generalization by:",
+  "choices": [
+   "A. Delivering reinforcement on several concurrent schedules throughout training",
+   "B. Adding new settings only after mastery in the primary training context",
+   "C. Sampling sufficient stimulus diversity within the relevant class during training",
+   "D. Training one terminal response form exclusively, using a full prompting hierarchy"
+  ]
+ },
+ {
+  "id": "d47q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.14",
+  "q": "An independent group contingency differs from the other two arrangements primarily because it:",
+  "choices": [
+   "A. Each member earns reinforcement based only on their own behavior",
+   "B. Makes group access to reinforcement depend on one selected member",
+   "C. Cannot be applied to more than one target behavior at a time",
+   "D. Requires every member to meet the criterion before anyone is reinforced"
+  ]
+ },
+ {
+  "id": "d56q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.4",
+  "q": "Which preference assessment format is most efficient for generating a preference hierarchy in routine clinical practice?",
+  "choices": [
+   "A. Free operant observation of time allocation",
+   "B. Paired stimulus forced-choice across all item pairs",
+   "C. Single stimulus presentation with approach recording",
+   "D. Multiple stimulus without replacement (MSWO)"
+  ]
+ },
+ {
+  "id": "d64q2",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.2",
+  "q": "A BCBA interviews three staff about a client’s aggression before observing any sessions. These data are best described as:",
+  "choices": [
+   "A. Permanent product measurement of aggression episodes",
+   "B. Continuous duration recording of aggression episodes",
+   "C. Indirect measurement that requires direct confirmation",
+   "D. Direct measurement of aggression in the natural setting"
+  ]
+ },
+ {
+  "id": "d70q3",
+  "domain": "Experimental Design",
+  "taskCode": "D.7 · Reversal",
+  "q": "The primary ethical concern with reversal designs involves:",
+  "choices": [
+   "A. Withdrawing effective treatment and exposing the client to harm",
+   "B. The volume of data points needed to establish a stable baseline",
+   "C. Obtaining written consent before every planned phase change",
+   "D. The number of baseline sessions required before the first phase change"
+  ]
+ },
+ {
+  "id": "d75q1",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.1 · Operational Definitions",
+  "q": "The offset criterion in an operational definition specifies:",
+  "choices": [
+   "A. The environmental event that reliably triggers the behavior",
+   "B. The observable conditions that mark the end of an episode",
+   "C. The reinforcer maintaining the behavior across episodes",
+   "D. The conditions under which the behavior is most likely to occur"
+  ]
+ },
+ {
+  "id": "d79q2",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.11 · Procedures",
+  "q": "An extinction burst is best described as:",
+  "choices": [
+   "A. A temporary increase in rate or intensity at extinction onset",
+   "B. An increase in an alternative behavior that replaces the target",
+   "C. The reappearance of behavior after a period of non-exposure",
+   "D. A permanent increase in behavior showing extinction has failed"
+  ]
+ },
+ {
+  "id": "d82q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.2 · FCT",
+  "q": "For an FCT response to successfully replace problem behavior, it must be:",
+  "choices": [
+   "A. A vocal response rather than a sign or card in all cases",
+   "B. Trained only after problem behavior has reached zero rates",
+   "C. At least as efficient as the problem behavior it replaces",
+   "D. Trained exclusively in discrete trials before natural settings"
+  ]
+ },
+ {
+  "id": "d86q2",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.7 · Effectiveness",
+  "q": "Steady-state responding, as described by Sidman (1960), is a prerequisite for phase changes because:",
+  "choices": [
+   "A. Only a stable baseline lets DV change be attributed to the IV, not to trend",
+   "B. BACB regulations specify the stability criteria required before phase changes",
+   "C. Variable data reflect measurement error that must be corrected first",
+   "D. It confirms the client has mastered the skill targeted in the current phase"
+  ]
+ },
+ {
+  "id": "d89q3",
+  "domain": "Concepts and Principles",
+  "taskCode": "B.16",
+  "q": "A student who is sleep-deprived exhibits higher rates of escape-maintained problem behavior during demanding tasks. Sleep deprivation most likely functions as:",
+  "choices": [
+   "A. A conditioned motivating operation established through pairing",
+   "B. A punisher that weakens on-task behavior during demands",
+   "C. An unconditioned motivating operation for escape behavior",
+   "D. An SD signaling that escape from demands is available"
+  ]
+ },
+ {
+  "id": "d93q3",
+  "domain": "Ethical and Professional Issues",
+  "taskCode": "E.7",
+  "q": "A conflict of interest is best described as a situation in which:",
+  "choices": [
+   "A. The behavior analyst disagrees with a supervisor's clinical recommendation",
+   "B. A personal or financial interest could compromise professional judgment",
+   "C. An intervention produces an unexpected side effect for the client",
+   "D. Two clients on one caseload hold goals that cannot both be met"
+  ]
+ },
+ {
+  "id": "d100q3",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.4",
+  "q": "The exchange schedule in a token economy determines:",
+  "choices": [
+   "A. Which operationally defined behaviors earn tokens",
+   "B. The physical form and counterfeit-resistance of tokens",
+   "C. When and how often token exchange opportunities occur",
+   "D. How many tokens are earned per correct response"
+  ]
+ },
+ {
+  "id": "d104q1",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.8 · Scope of Practice",
+  "q": "A BCBA identifies through functional analysis that a client's self-injury appears to be automatically maintained. Before designing a behavior reduction program, the BCBA should:",
+  "choices": [
+   "A. Default to a DRO schedule because the behavior is automatically maintained",
+   "B. Conduct a paired-choice preference assessment to find competing stimuli",
+   "C. Consult medical professionals to rule out pain or other medical causes",
+   "D. Begin sensory extinction with protective equipment at the next session"
+  ]
+ },
+ {
+  "id": "d107q3",
+  "domain": "Experimental Design",
+  "taskCode": "D.7 · Multiple Baseline",
+  "q": "The multiple-probe design (Horner & Baer, 1978) addresses which limitation of the standard multiple baseline?",
+  "choices": [
+   "A. Limited external validity across different participants",
+   "B. Reactivity and burden of continuous baseline measurement",
+   "C. The requirement for at least four independent tiers",
+   "D. The need to withdraw treatment in order to demonstrate control"
+  ]
+ }
+]

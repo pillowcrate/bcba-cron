@@ -1,0 +1,26 @@
+[
+ {
+  "id": "d75q3",
+  "domain": "Selecting and Implementing Interventions",
+  "taskCode": "H.1 · Operational Definitions",
+  "q": "Which operational definition is most complete for a deceleration target?",
+  "choices": [
+   "A. 'Aggression: any action that harms another person or appears intended to cause them harm'",
+   "B. 'Aggression: hand or foot contact with a person; onset at contact, offset after 3 s without contact'",
+   "C. 'Aggression: hitting — the client strikes another person with an open or closed hand'",
+   "D. 'Aggression: hitting, kicking, or biting others, or any other behavior of a similar aggressive character'"
+  ]
+ },
+ {
+  "id": "d9q2",
+  "domain": "Behavior-Change Procedures",
+  "taskCode": "G.5 · MO and SD Interventions",
+  "q": "A high-probability (high-p) request sequence builds compliance primarily by:",
+  "choices": [
+   "A. Abolishing the motivating operation for escape from demands",
+   "B. Changing reinforcer value through deprivation before the demand",
+   "C. Delivering noncontingent attention on a fixed-time schedule",
+   "D. Altering stimulus control with a run of reinforced compliance"
+  ]
+ }
+]
