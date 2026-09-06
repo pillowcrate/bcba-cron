@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d124q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.5 · Conditional Probability",
+  "q": "Computing contingency values within relevant establishing operations rather than across the whole session prevents:",
+  "choices": [
+   "A. The background probability from ever reaching zero",
+   "B. Dilution of a contingency that operates only situationally",
+   "C. The need for any experimental analysis afterward",
+   "D. Observers disagreeing about the behavior definitions used"
+  ]
+ },
+ {
+  "id": "d126q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Synthesized and Precursor Analyses",
+  "q": "The principal analytic cost of combining several putative reinforcers into one test condition is that the result:",
+  "choices": [
+   "A. Overestimates the overall rate of problem behavior",
+   "B. Requires an unusually long observation period",
+   "C. Does not isolate which reinforcer is necessary",
+   "D. Cannot be used to design any treatment"
+  ]
+ },
+ {
+  "id": "d128q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Automatic Subtypes",
+  "q": "Hagopian et al. (2015) reported that reinforcement-based treatment alone was effective for:",
+  "choices": [
+   "A. Subtype 3 cases only, once restraint was blocked",
+   "B. No cases of automatically reinforced self-injury",
+   "C. Most Subtype 1 cases but no Subtype 2 cases",
+   "D. All three subtypes at comparable rates"
+  ]
+ }
+]

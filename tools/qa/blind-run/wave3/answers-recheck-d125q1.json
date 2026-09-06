@@ -1,0 +1,29 @@
+{
+  "item": "d125q1",
+  "round": 2,
+  "note": "Fresh shuffle, different from blind-01.json, after replacing the defensible 'multiply controlled' distractor. Shuffled order presented was: A=real D, B=real C, C=real A, D=real B. Key in shuffled space = B.",
+  "shuffled_options": {
+    "A": "Repeat the trial-based analysis until results agree  (real D)",
+    "B": "Examine the discrepancy and trust the standard analysis  (real C - KEY)",
+    "C": "Average the two outcomes into a combined hypothesis  (real A)",
+    "D": "Adopt the trial-based result for its ecological validity  (real B)"
+  },
+  "answers": [
+    {
+      "agent": "blind-recheck-A (behavior analyst framing)",
+      "pick": "B",
+      "confidence": "high",
+      "defensible": ["B"],
+      "reasoning": "Standard analog FA has the strongest experimental control and is the benchmark against which trial-based FA is validated. A is confirmation bias, not replication. C treats categorical single-subject outcomes as poolable scores. D: ecological validity alone does not override weaker experimental control."
+    },
+    {
+      "agent": "blind-recheck-B (adversarial psychometrician framing)",
+      "pick": "B",
+      "confidence": "medium",
+      "defensible": ["B"],
+      "flaw": "Keyed option bundles 'examine the discrepancy' (clearly right) with 'trust the standard analysis' (more categorical than the evidence strictly supports). Distractors A, C, D are all clearly wrong, so the item discriminates.",
+      "reasoning": "D is the most tempting distractor since ecological validity is genuinely trial-based FA's advantage, but it does not override weaker experimental control."
+    }
+  ],
+  "outcome": "2/2 agreement with the key; key is the sole defensible option for both. Repair confirmed. The style critique from the adversarial agent was reviewed and deliberately not acted on - see README."
+}

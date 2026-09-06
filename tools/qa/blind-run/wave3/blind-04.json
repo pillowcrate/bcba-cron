@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d124q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.5 · Conditional Probability",
+  "q": "Attention follows 80% of problem behavior episodes, and is also delivered during 80% of intervals generally. This indicates:",
+  "choices": [
+   "A. No differential attention contingency",
+   "B. An unreliable observation record",
+   "C. An escape contingency operating instead of attention",
+   "D. A strong attention contingency"
+  ]
+ },
+ {
+  "id": "d126q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Synthesized and Precursor Analyses",
+  "q": "Before running a functional analysis on a precursor rather than the target behavior, the analyst must first establish that the precursor:",
+  "choices": [
+   "A. Is topographically similar to the target behavior",
+   "B. Precedes the target behavior reliably",
+   "C. Belongs to a different response class than the target",
+   "D. Occurs at a higher rate than the target behavior"
+  ]
+ },
+ {
+  "id": "d128q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Automatic Subtypes",
+  "q": "The Hagopian et al. (2015) subtyping model is intended to be applied:",
+  "choices": [
+   "A. Before any functional analysis has been conducted",
+   "B. Instead of a functional analysis for dangerous behavior",
+   "C. Only when the behavior is socially reinforced",
+   "D. After automatic maintenance has already been established"
+  ]
+ }
+]

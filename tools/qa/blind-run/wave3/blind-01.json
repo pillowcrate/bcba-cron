@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d123q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.1 · Records Review",
+  "q": "Records show a learner's self-injury coincides with recurrent ear infections. The functional analysis should therefore:",
+  "choices": [
+   "A. Be postponed until the infections resolve permanently",
+   "B. Treat the infections as an unmeasurable confound",
+   "C. Replace the alone condition with a pain probe",
+   "D. Sample both symptomatic and symptom-free periods"
+  ]
+ },
+ {
+  "id": "d125q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Practical Variants",
+  "q": "A trial-based functional analysis and a standard analysis produce conflicting functions for the same student. The analyst should:",
+  "choices": [
+   "A. Investigate the discrepancy and rely on the standard analysis",
+   "B. Report the behavior as multiply controlled by both functions",
+   "C. Adopt the trial-based result for its ecological validity",
+   "D. Average the two outcomes into a combined hypothesis"
+  ]
+ },
+ {
+  "id": "d127q1",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.4 · Reinforcer Assessment",
+  "q": "A single-operant reinforcer assessment answers which question about a stimulus?",
+  "choices": [
+   "A. Does it function as a reinforcer at all",
+   "B. Which topography of responding does it occasion",
+   "C. How quickly will the client satiate on it",
+   "D. Is it preferred over the client's highest-ranked item"
+  ]
+ }
+]

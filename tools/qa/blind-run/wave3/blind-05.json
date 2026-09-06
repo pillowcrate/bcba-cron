@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d124q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.5 · Conditional Probability",
+  "q": "A consequence follows only 15% of episodes but occurs in under 1% of other intervals. This most likely reflects:",
+  "choices": [
+   "A. Observer drift across sessions",
+   "B. A meaningful contingency worth testing",
+   "C. A weak and clinically irrelevant relation",
+   "D. Too little data to interpret"
+  ]
+ },
+ {
+  "id": "d126q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Synthesized and Precursor Analyses",
+  "q": "A synthesized contingency analysis differs most fundamentally from brief and trial-based formats in that it:",
+  "choices": [
+   "A. Modifies the core components of the standard methodology",
+   "B. Applies only to behavior maintained by automatic reinforcement",
+   "C. Eliminates the need for any control condition",
+   "D. Requires substantially more session time overall"
+  ]
+ },
+ {
+  "id": "d128q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Automatic Subtypes",
+  "q": "Which functional analysis pattern characterizes Subtype 2 automatically reinforced self-injury?",
+  "choices": [
+   "A. Clear separation between alone and play conditions",
+   "B. High undifferentiated responding across all conditions",
+   "C. Low responding in alone with elevation in play",
+   "D. Elevated responding confined to the demand condition"
+  ]
+ }
+]

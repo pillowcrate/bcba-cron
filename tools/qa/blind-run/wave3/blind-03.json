@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d123q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.1 · Records Review",
+  "q": "Reading records as variables rather than as background primarily means using them to:",
+  "choices": [
+   "A. Establish the client's eligibility for funded services",
+   "B. Summarize the referral concern for the written report",
+   "C. Satisfy the documentation requirements of the funder",
+   "D. Shape when the assessment runs and what it includes"
+  ]
+ },
+ {
+  "id": "d125q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Practical Variants",
+  "q": "Bloom et al. (2011) found that trial-based functional analysis, relative to standard functional analysis, required:",
+  "choices": [
+   "A. Identical time but fewer trained observers",
+   "B. Less time only for escape-maintained behavior",
+   "C. Slightly more total assessment time",
+   "D. Substantially less total assessment time"
+  ]
+ },
+ {
+  "id": "d127q3",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.4 · Reinforcer Assessment",
+  "q": "Two stimuli produce equal responding on a fixed-ratio 1 schedule but diverge sharply under progressive-ratio requirements. This suggests they:",
+  "choices": [
+   "A. Were incorrectly identified by the preference assessment",
+   "B. Differ in strength, which matters for high-effort tasks",
+   "C. Should both be removed from the reinforcer pool",
+   "D. Are equally effective across all instructional contexts"
+  ]
+ }
+]

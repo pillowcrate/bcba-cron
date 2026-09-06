@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d123q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.1 · Records Review",
+  "q": "The most useful content in a prior behavior intervention plan is:",
+  "choices": [
+   "A. The credentials of the analyst who authored the plan",
+   "B. The number of goals and objectives it listed",
+   "C. The procedures used and what the data showed happened",
+   "D. The diagnosis and eligibility category recorded at intake"
+  ]
+ },
+ {
+  "id": "d125q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.6 · Practical Variants",
+  "q": "The contingency reversal phase of a brief functional analysis serves primarily to:",
+  "choices": [
+   "A. Shorten the appointment by removing a control condition",
+   "B. Establish the client's preference among available reinforcers",
+   "C. Reduce the risk of injury during assessment sessions",
+   "D. Verify the identified contingency using an alternative response"
+  ]
+ },
+ {
+  "id": "d127q2",
+  "domain": "Behavior Assessment",
+  "taskCode": "F.4 · Reinforcer Assessment",
+  "q": "An item ranked last in an MSWO is best described as:",
+  "choices": [
+   "A. Suitable only for use with high-effort tasks",
+   "B. Outcompeted, but not established as a non-reinforcer",
+   "C. Likely to function as a punisher if delivered contingently",
+   "D. Confirmed to have no reinforcing function"
+  ]
+ }
+]
