@@ -5,7 +5,7 @@ description: Use when adding a new day of BCBA exam-prep content to the bcba-cro
 
 # Add a BCBA Newsletter Day
 
-This project emails one day of BCBA exam-prep content per weekday (cron: `0 12 * * 1-5`). All content lives in a single `DAYS` array in `app/api/cron/bcba-brief/route.js`, currently 112 entries. Every entry must match the existing shape, voice, and **length** exactly — this is graduate-level, citation-dense exam prep, not a casual blog post.
+This project emails one day of BCBA exam-prep content per weekday (cron: `0 12 * * 1-5`). All content lives in a single `DAYS` array in `app/api/cron/bcba-brief/route.js`, currently 122 entries. Every entry must match the existing shape, voice, and **length** exactly — this is graduate-level, citation-dense exam prep, not a casual blog post.
 
 The deck is aligned to the **BACB BCBA Test Content Outline (6th ed.)** — 104 tasks across 9 domains. It is not the 5th-edition Task List; do not use `C-01`-style hyphen codes.
 
@@ -45,7 +45,7 @@ The deck is aligned to the **BACB BCBA Test Content Outline (6th ed.)** — 104 
 - A single item: `"B.17"`.
 - A day that genuinely trains two items: `"C.10/C.11"`.
 - A day sharing a base code with an existing day: add a middle-dot qualifier, e.g. `"G.16 · Maintenance"` vs `"G.16 · Self-Management"`. `taskCode` must be unique across all entries.
-- Two TCO items are covered in substance but not separately labelled: **C.3** (measure occurrence, inside the C.4/C.9 day) and **D.9** (apply single-case designs, across the four D.7 days). Either is a reasonable target for a new day.
+- Coverage is complete: all 104 TCO items have at least one day as of 2026-09-06. Verify with `node tools/qa/audit-task-labels.mjs`. Note day 13 is now `C.9`, not `C.4/C.9`.
 
 ## Where to insert — READ THIS BEFORE EDITING
 
@@ -58,7 +58,22 @@ Consequences for adding a day:
 3. **Restamp `ROTATION_ANCHOR`** in the same file. The delivery index is `(ROTATION_ANCHOR.dayNumber - 1 + countWeekdays(ROTATION_ANCHOR.date, today)) % DAYS.length`. Changing `DAYS.length` without restamping makes the printed counter jump. Set `date` to the most recent send date and `dayNumber` to the number that send actually showed — read it from the subject line of the last email rather than calculating it.
 4. Avoid placing the new day adjacent to another day in the same domain.
 
-`.bcba-build/` (gitignored, may not exist) holds `merge.js`, which does insertion, renumbering, validation and coverage reporting mechanically. Prefer it over hand-editing.
+   **Known violation, accepted.** Wave 2 (Sept 2026) appended days 118-122, all
+   domain I, immediately after day 117 (also domain I). Subscribers therefore get
+   six consecutive Personnel Supervision sends, 2027-01-23 to 2027-02-01. Appending
+   is what `add-days.mjs` does by design; interleaving instead would renumber every
+   later entry and require an anchor restamp. Fix this by interleaving if a later
+   wave is willing to pay that cost.
+
+   **ROTATION_ANCHOR after Wave 2:** left at `{date: "2026-09-04", dayNumber: 16}`
+   and deliberately NOT restamped. The invariant is not "length changed" but "the
+   anchor names a real past send whose number was not produced by a wrap". It still
+   does, so growing 117 -> 122 only changes behaviour at the old wrap point, which is
+   exactly where the new days should appear. Restamping an already-correct anchor
+   moves the counter and is itself the bug. See the comment above ROTATION_ANCHOR
+   in route.js.
+
+Use `tools/qa/add-days.mjs`, which appends entries, numbers them, restamps `ROTATION_ANCHOR` and validates word counts, domain/code agreement, verbatim task text, option labelling and citation reuse before writing. It dry-runs by default; pass `--write`. (The older `.bcba-build/merge.js` referenced here previously cannot run — its input files were never preserved.)
 
 ## Length targets — measured, not approximate
 
@@ -95,7 +110,7 @@ Across the live corpus `concept.body` has a median of 241 words and a max of 323
 
 The deck is deliberately balanced: correct answers are exactly 84/84/84/84 across A–D, and 28/28/28/28 within each of the three question slots. Adding a day nudges this — pick answer letters that keep it near-uniform, and never give one day the same letter three times.
 
-**Known open issue:** the correct option is the uniquely longest of the four in about 71% of questions (chance is 25%), which lets a reader score well without reading the stem. Do not make it worse — write distractors comparable in length to the key.
+**Known open issue:** the correct option is the uniquely longest of the four in about 33% of questions (chance is 25%), down from 71% before the September 2026 fix. Do not make it worse — write distractors comparable in length to the key. Verify with `node tools/qa/measure-len.mjs`.
 
 Never write a rationale that names an option by letter ("Option C is correct"). Option order gets permuted during rebalancing and the reference goes stale.
 
