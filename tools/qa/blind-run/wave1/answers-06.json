@@ -1,0 +1,16 @@
+[
+ {
+  "id": "d114q3",
+  "pick": "A",
+  "confidence": "high",
+  "defensible": ["A"],
+  "note": "Thomason-Sassi et al. (2011) found latency to problem behavior was inversely related to response rate, supporting latency as a viable FA measure that reduces exposure to problem behavior. D states the opposite relation; B and C contradict the paper's central finding that latency corresponded with rate-based outcomes across conditions."
+ },
+ {
+  "id": "d116q3",
+  "pick": "C",
+  "confidence": "high",
+  "defensible": ["C"],
+  "note": "Rapidly alternating two conditions within a single participant and comparing the resulting data paths is the defining use case for an alternating treatments design. A requires multiple independent baselines and is slow, B compares treatment to baseline rather than two treatments and requires reversibility, and D shapes one behavior toward a terminal goal rather than comparing procedures."
+ }
+]

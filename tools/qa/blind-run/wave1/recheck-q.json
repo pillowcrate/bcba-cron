@@ -1,0 +1,14 @@
+[
+ {
+  "id": "d113q1",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.3",
+  "q": "Sessions run 15, 30, and 45 minutes across one week. Which measure permits comparison across them?",
+  "choices": [
+   "A. Cumulative responses across the week",
+   "B. Count of responses per session",
+   "C. Total duration of the session",
+   "D. Rate of responding per minute"
+  ]
+ }
+]

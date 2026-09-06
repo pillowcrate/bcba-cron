@@ -1,0 +1,23 @@
+[
+ {
+  "id": "d113q2",
+  "pick": "C",
+  "confidence": "high",
+  "defensible": ["C"],
+  "note": "Correct responses divided by presented opportunities (9/10) is percentage of opportunities correct. B and D are ruled out because no time dimension is given and discrete-trial data are opportunity-based rather than free-operant, and A requires repeated measures plotted over time to compute a change in rate."
+ },
+ {
+  "id": "d115q2",
+  "pick": "B",
+  "confidence": "high",
+  "defensible": ["B"],
+  "note": "The over- and underestimation built into partial- and whole-interval recording shrinks as interval length approaches the real duration of the response, so shortening intervals is the direct fix for measurement bias. D is the strongest distractor but is correctly wrong: a second observer improves interobserver agreement, which is about consistency between observers and does not correct a bias both observers share."
+ },
+ {
+  "id": "d117q2",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "Valentino, LeBlanc, and Sellers (2016) argue that group supervision only yields its benefits when the supervisor deliberately structures it with defined goals, agendas, and active-responding formats rather than letting it run as unstructured discussion. A, B, and C are logistical or compositional variables the paper does not treat as the operative ingredient."
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "id": "d114q2",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "Both patterns total 30 minutes, so total duration (A) is precisely the measure that cannot distinguish them; duration per occurrence separates 15-min episodes from 45-second ones. Rate (B) is the nearest competitor and does differ (2 vs 40 per session), but it reports only how often behavior started, not how long each bout lasted, which is the dimension the stem turns on. Percentage of intervals (C) is an estimate that would likely favor the 40-episode pattern and cannot recover bout length."
+ },
+ {
+  "id": "d116q2",
+  "confidence": "high",
+  "pick": "A",
+  "defensible": ["A"],
+  "note": "Multiple baseline logic depends on the tiers being functionally independent, so covariation in untreated behaviors destroys the demonstration of experimental control. B is a reason to choose a multiple baseline rather than a threat to it, C belongs to changing criterion, and D belongs to alternating treatments."
+ }
+]

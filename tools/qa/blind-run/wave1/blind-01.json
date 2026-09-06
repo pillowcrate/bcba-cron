@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d113q1",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.3",
+  "q": "Sessions run 15, 30, and 45 minutes across one week. Which measure permits comparison across them?",
+  "choices": [
+   "A. Rate of responding per minute",
+   "B. Total duration of the session",
+   "C. Percentage of intervals scored",
+   "D. Count of responses per session"
+  ]
+ },
+ {
+  "id": "d115q1",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.6",
+  "q": "A behavior is scored whenever it occurs at any point within the interval. This system:",
+  "choices": [
+   "A. Produces an unbiased duration estimate",
+   "B. Requires two observers for validity",
+   "C. Underestimates the duration of behavior",
+   "D. Overestimates the duration of behavior"
+  ]
+ },
+ {
+  "id": "d117q1",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.1",
+  "q": "What is the primary way that supervision protects client outcomes?",
+  "choices": [
+   "A. It verifies procedural integrity in practice",
+   "B. It satisfies certification board requirements",
+   "C. It reduces caseload per technician",
+   "D. It increases billable service hours"
+  ]
+ }
+]

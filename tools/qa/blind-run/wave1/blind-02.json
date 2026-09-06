@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d113q2",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.3",
+  "q": "A learner responds correctly on nine of ten discrete trials. Which measure does this represent?",
+  "choices": [
+   "A. Celeration across the session",
+   "B. Frequency per minute observed",
+   "C. Percentage of opportunities correct",
+   "D. Rate of correct responding"
+  ]
+ },
+ {
+  "id": "d115q2",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.6",
+  "q": "Which change would most reduce measurement bias in an interval recording system?",
+  "choices": [
+   "A. Switching from count to percentage",
+   "B. Shortening the recording interval length",
+   "C. Extending sessions across more days",
+   "D. Adding a second independent observer"
+  ]
+ },
+ {
+  "id": "d117q2",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.1",
+  "q": "According to Valentino et al. (2016), the benefits of group supervision depend primarily on:",
+  "choices": [
+   "A. The number of supervisees attending",
+   "B. Whether attendance is contractually required",
+   "C. The seniority of the presenting supervisee",
+   "D. How deliberately the supervisor structures it"
+  ]
+ }
+]

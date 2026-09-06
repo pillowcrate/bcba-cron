@@ -1,0 +1,23 @@
+[
+ {
+  "id": "d113q1",
+  "pick": "A",
+  "confidence": "high",
+  "defensible": ["A", "C"],
+  "note": "Rate standardizes count by observation time, so it is comparable across 15/30/45-minute sessions; raw count (D) and session duration (B) both scale directly with session length. FLAG: option C is accidentally defensible. Percentage of intervals scored is also a proportional measure that is unaffected by total session length when interval size is held constant, which is exactly the property the stem asks for. The stem never states that interval recording was used, which is the only thing that makes A the better answer; a candidate who reads 'which measure permits comparison' literally can defend C."
+ },
+ {
+  "id": "d115q1",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "Scoring the behavior if it occurs at any point in the interval is partial-interval recording, which credits a whole interval for a brief occurrence and therefore overestimates duration/prevalence. C is the whole-interval error stated backwards, and whole interval is the system that underestimates. A is wrong because all discontinuous measures are biased estimates, and B confuses measurement bias with interobserver agreement."
+ },
+ {
+  "id": "d117q1",
+  "pick": "A",
+  "confidence": "high",
+  "defensible": ["A"],
+  "note": "Supervision protects clients mainly by directly observing implementation and verifying that procedures are run with integrity, which is the mechanism that links supervision to client outcome. B is a regulatory byproduct rather than a protective mechanism, and C and D are administrative or revenue outcomes with no direct causal path to client benefit."
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "id": "d114q1",
+  "pick": "C",
+  "confidence": "high",
+  "defensible": ["C"],
+  "note": "Latency is defined as the elapsed time from onset of a stimulus (here, the instruction) to the initiation of the response, which is exactly what is being timed. IRT (A) measures the time between the end of one response and the start of the next response — a response-to-response interval, not a stimulus-to-response one — and duration (D) measures how long responding lasts after it starts, not how long it took to begin."
+ },
+ {
+  "id": "d116q1",
+  "pick": "C",
+  "confidence": "high",
+  "defensible": ["C"],
+  "note": "A reversal design requires the behavior to return toward baseline when treatment is withdrawn; a mastered safety skill is a learned, irreversible repertoire, so withdrawal will not produce the reversal the design depends on (and multiple baseline is the standard alternative). B is false as written — IRBs do not prohibit all withdrawals — and A is vague and describes multiple-treatment interference in alternating-treatments designs rather than the acquisition problem at issue here; note that the equally strong real-world objection, that deliberately reversing a safety skill would be unethical because it exposes the client to risk, is not offered as an option."
+ }
+]

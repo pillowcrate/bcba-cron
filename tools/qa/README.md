@@ -78,6 +78,13 @@ The keys are not optional bookkeeping. A pick is recorded as a letter in *shuffl
 space, so `"pick": "D"` is meaningless without the key that maps it back — for `d36q3`,
 blind D decodes to real option B. Every `answers-*.json` here has its key.
 
+`blind-run/wave1/` is the same thing for the five days added in September 2026
+(C.3, C.4, C.6, D.9, I.1) — 15 questions, 15/15 agreement, one item (`d113q1`)
+caught with two defensible answers, fixed, and re-checked blind with a fresh
+shuffle. It lives in a subdirectory because its `answers-*.json` files share
+filenames with the original run's; copying them into the same directory would
+silently overwrite the 129-question record.
+
 To reproduce the 129/129 result from a clean checkout:
 
 ```

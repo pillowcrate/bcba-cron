@@ -1,0 +1,26 @@
+[
+ {
+  "id": "d114q1",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.4",
+  "q": "A BCBA records the time between an instruction and the start of compliance. This measure is:",
+  "choices": [
+   "A. Interresponse time between trials",
+   "B. Momentary time sampling estimate",
+   "C. Latency to the response",
+   "D. Total duration of responding"
+  ]
+ },
+ {
+  "id": "d116q1",
+  "domain": "Experimental Design",
+  "taskCode": "D.9",
+  "q": "A BCBA teaches a safety skill and must demonstrate experimental control. Reversal is unsuitable because:",
+  "choices": [
+   "A. Alternating conditions would confound results",
+   "B. Review boards prohibit all withdrawals",
+   "C. Acquired skills do not reverse",
+   "D. Skills require longer baseline phases"
+  ]
+ }
+]

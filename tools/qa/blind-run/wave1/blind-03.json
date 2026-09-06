@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d113q3",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.3",
+  "q": "Why is percentage correct a poor index of how often a behavior occurs?",
+  "choices": [
+   "A. It cannot exceed one hundred",
+   "B. It requires two independent observers",
+   "C. It applies only to free operants",
+   "D. It carries no time base"
+  ]
+ },
+ {
+  "id": "d115q3",
+  "domain": "Measurement, Data Display, and Interpretation",
+  "taskCode": "C.6",
+  "q": "An observer must teach while collecting data on stereotypy. Which system is most practical?",
+  "choices": [
+   "A. Continuous duration recording with a timer",
+   "B. Partial-interval recording at ten seconds",
+   "C. Momentary time sampling at interval ends",
+   "D. Whole-interval recording throughout the session"
+  ]
+ },
+ {
+  "id": "d117q3",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.1",
+  "q": "Which repertoire is group supervision better positioned to build than individual supervision?",
+  "choices": [
+   "A. Writing operational definitions precisely",
+   "B. Giving and receiving peer feedback",
+   "C. Conducting preference assessments reliably",
+   "D. Graphing session data with software"
+  ]
+ }
+]

@@ -1,0 +1,23 @@
+[
+ {
+  "id": "d113q3",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "Percentage is a dimensionless ratio of a count to a count (or to opportunities), so it contains no time dimension and cannot tell you how often behavior occurred per unit time — two learners at 80% could differ wildly in rate. A ('cannot exceed one hundred') is a real Cooper-listed limitation of percentage (ceiling effect masking improvement in already-high behaviors), but it is not a statement about frequency of occurrence, so it does not answer this stem; C is backwards, since percentage is typically used with discrete-trial/restricted-opportunity data rather than free operants."
+ },
+ {
+  "id": "d115q3",
+  "pick": "C",
+  "confidence": "high",
+  "defensible": ["C"],
+  "note": "Momentary time sampling exists precisely for observers who have competing duties: you only look at the moment the interval ends, so instruction can continue between observations. Partial-interval (B) and whole-interval (D) both require continuous, undivided attention across every interval, and continuous duration recording (A) demands uninterrupted timing of onsets and offsets — none of which is compatible with simultaneously teaching."
+ },
+ {
+  "id": "d117q3",
+  "pick": "B",
+  "confidence": "high",
+  "defensible": ["B"],
+  "note": "Peer feedback — both delivering it and receiving it — structurally requires peers, so group supervision is the format that affords practice of that repertoire; it is also an explicitly listed benefit of group supervision in the BACB supervision requirements. A, C, and D are individual performance skills best trained through one-to-one behavioral skills training with direct observation and individualized feedback on the trainee's own products."
+ }
+]
