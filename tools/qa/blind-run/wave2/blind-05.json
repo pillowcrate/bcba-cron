@@ -1,0 +1,26 @@
+[
+ {
+  "id": "d119q2",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.5 · Skill Maintenance",
+  "q": "Richman et al. (1988) added supervisor feedback to their self-monitoring procedure because:",
+  "choices": [
+   "A. Evening-shift performance did not generalize at all",
+   "B. Some staff did not maintain high performance",
+   "C. The activity cards proved too costly to reproduce",
+   "D. Staff objected to completing the activity cards"
+  ]
+ },
+ {
+  "id": "d121q2",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.5 · Antecedent Supports",
+  "q": "Casella et al. (2010) increased safe performance by therapists by manipulating:",
+  "choices": [
+   "A. Written feedback delivered after every shift",
+   "B. The effort required to respond safely",
+   "C. Peer modeling of correct safety procedures",
+   "D. The reinforcement schedule for safe responses"
+  ]
+ }
+]

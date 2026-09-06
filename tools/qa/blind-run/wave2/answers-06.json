@@ -1,0 +1,16 @@
+[
+ {
+  "id": "d119q3",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "Unpredictable, unannounced observation samples typical performance rather than performance under a discriminative stimulus for being watched, so it maintains integrity across time rather than only at known observation moments. The announced first-Monday option is the classic distractor: a predictable SD makes integrity spike on that day and drift between visits. A quarterly review is too infrequent to catch drift, and first-week continuous observation addresses acquisition rather than maintenance. No flaw found."
+ },
+ {
+  "id": "d121q3",
+  "pick": "C",
+  "confidence": "high",
+  "defensible": ["C"],
+  "note": "Verified against the open-access paper (PMC2998264): low-effort means were approximately 59% for glove wearing, 21% for hand sanitizing, and 26% for electrical outlet replacement — higher than the medium- and high-effort conditions but nowhere near adequate for safety behaviour, which is what the key says. 'Reached criterion' is false: nothing approached criterion and two of three behaviours stayed near 20%. 'Matched skills training' is false because the study contained no training condition at all. The novelty-decline distractor is subtlest and unsupported: the authors discuss a possible carryover effect, not a novelty-driven decline. MINOR FLAG (accepted): the paper never defines an 'acceptable' criterion, so 'well below acceptable' is the item writer's inference rather than the authors' language. Defensible for safety-critical behaviour at 21-59%, and it does not create a second defensible answer."
+ }
+]

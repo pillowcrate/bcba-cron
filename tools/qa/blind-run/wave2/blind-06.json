@@ -1,0 +1,26 @@
+[
+ {
+  "id": "d119q3",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.5 · Skill Maintenance",
+  "q": "Which observation schedule best maintains staff treatment integrity across time?",
+  "choices": [
+   "A. One thorough scheduled review each quarter",
+   "B. Continuous observation during the first week only",
+   "C. Announced observations every first Monday monthly",
+   "D. Irregular observations on an unpredictable schedule"
+  ]
+ },
+ {
+  "id": "d121q3",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.5 · Antecedent Supports",
+  "q": "What did Casella et al. (2010) find about performance in the low-effort conditions?",
+  "choices": [
+   "A. It matched performance following skills training",
+   "B. It declined once the novelty had worn off",
+   "C. It improved but remained well below acceptable",
+   "D. It reached criterion for all three behaviors"
+  ]
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d118q3",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.5 · Pyramidal Training",
+  "q": "Parsons et al. (2013) also assessed trained practitioners in the routine work setting because:",
+  "choices": [
+   "A. Acceptability ratings can only be collected on site",
+   "B. The group training sessions ran longer than scheduled",
+   "C. Simulation scoring requires two independent trained observers",
+   "D. Rehearsal performance may not transfer to the job"
+  ]
+ },
+ {
+  "id": "d120q3",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.2 · Remote Supervision",
+  "q": "A supervisor cannot clearly observe a physical prompting procedure over video. She should:",
+  "choices": [
+   "A. Score that segment as implemented incorrectly",
+   "B. Arrange in-person assessment of that specific skill",
+   "C. Postpone all supervision until an in-person visit",
+   "D. Accept the technician's self-report of fidelity"
+  ]
+ },
+ {
+  "id": "d122q3",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.2 · Supervisory Capacity",
+  "q": "A BCBA must end a supervisory relationship for legitimate personal reasons. Her primary obligation is:",
+  "choices": [
+   "A. To refund the fees the supervisee has already paid",
+   "B. To notify the certification board of the ending",
+   "C. To give notice and arrange an orderly transition",
+   "D. To continue until the supervisee accrues all hours"
+  ]
+ }
+]

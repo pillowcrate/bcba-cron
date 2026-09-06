@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d118q2",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.5 · Pyramidal Training",
+  "q": "In pyramidal training, what is the skill that the middle tier acquires?",
+  "choices": [
+   "A. Data collection and graphing conventions",
+   "B. Supervisory documentation and billing requirements",
+   "C. The procedure for training other staff members",
+   "D. One specific client's behavior intervention plan"
+  ]
+ },
+ {
+  "id": "d120q2",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.2 · Remote Supervision",
+  "q": "Tomlinson et al. (2018) concluded that trainee fidelity following telehealth training was:",
+  "choices": [
+   "A. Variable across the studies they reviewed",
+   "B. Not measured in any of the reviewed studies",
+   "C. Uniformly poor except for assessment skills",
+   "D. Consistently equivalent to in-person training"
+  ]
+ },
+ {
+  "id": "d122q2",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.2 · Supervisory Capacity",
+  "q": "A supervisor delegates a feeding protocol to a supervisee she has never observed running it. This is:",
+  "choices": [
+   "A. Improper, since the competence was never assessed",
+   "B. Improper, because feeding protocols cannot be delegated",
+   "C. Acceptable because responsibility remains with the supervisor",
+   "D. Acceptable if the supervisee holds current certification"
+  ]
+ }
+]

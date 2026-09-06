@@ -1,0 +1,38 @@
+[
+ {
+  "id": "d118q1",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.5 · Pyramidal Training",
+  "q": "What distinguishes pyramidal training from simply assigning a senior technician to train new hires?",
+  "choices": [
+   "A. New hires receive the written materials first",
+   "B. The technician's training fidelity is measured",
+   "C. Training occurs during regular paid work hours",
+   "D. The senior technician has more field experience"
+  ]
+ },
+ {
+  "id": "d120q1",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.2 · Remote Supervision",
+  "q": "The most significant assessment limitation introduced by observing a session over video is:",
+  "choices": [
+   "A. The client's awareness of being recorded",
+   "B. Difficulty scoring the frequency of responses",
+   "C. Delays in transmitting the video signal",
+   "D. Antecedent events outside the camera frame"
+  ]
+ },
+ {
+  "id": "d122q1",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.2 · Supervisory Capacity",
+  "q": "Which is the earliest reliable indicator that a supervisor has taken on too many supervisees?",
+  "choices": [
+   "A. Clients on supervisee caseloads stop progressing",
+   "B. Direct observation is replaced by reviewing self-report",
+   "C. Documentation is submitted after the monthly deadline",
+   "D. Supervisees begin missing scheduled meeting times"
+  ]
+ }
+]

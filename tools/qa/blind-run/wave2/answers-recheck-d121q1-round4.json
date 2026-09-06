@@ -1,0 +1,21 @@
+[
+ {
+  "_comment": "Round 4. d121q1 was rewritten a second time, for a reason the blind harness structurally CANNOT catch: a cross-day contradiction. The reviewer agent found that the previous stem ('performs a skill correctly when asked but omits it during unstructured periods') was the same can-do/won't-do scenario as day 58 q1 ('runs preference assessments correctly when observed but skips them on most unobserved sessions'), which the deck keys to a CONSEQUENCE contingency. Two items, same scenario, opposite keyed analyses. Blind checking scores each question in isolation and cannot see this.",
+  "round": 4,
+  "id": "d121q1",
+  "version": "stem rewritten so the premise is antecedent by construction: the expectation was never specified, and the omission is team-wide rather than individual",
+  "blind_choices": ["A. Reassigning the responsibility to another technician", "B. A posted job aid listing each trigger condition", "C. A full behavioral skills training sequence", "D. A written warning documenting the omissions"],
+  "pick": "B",
+  "correct": true,
+  "confidence": "high",
+  "defensible": ["B"],
+  "contradiction_resolved": true,
+  "note": "Exactly one option is defensibly indicated. The stem now names the cause outright, so a posted job aid supplies the missing stimulus; reassignment relocates the same ambiguity, BST presumes a skill deficit the stem never asserts, and a written warning punishes behaviour that had no clear antecedent. CONTRADICTION RESOLVED: day 58's keyed logic depends on performance differing as a function of observation, which proves the skill is in repertoire and isolates consequences. The old wording supplied exactly that evidence and then keyed the opposite analysis, which was a true contradiction. The rewrite deletes the repertoire evidence entirely and affirmatively states the antecedent was never delivered, so the two items now turn on different diagnostic evidence — can-do-but-doesn't versus never-told-when — which is the standard performance-diagnostic contrast rather than a conflict. WARNING FOR FUTURE EDITORS: the 'Nobody has specified when' clause is load-bearing. If a later pass softens or drops it for length, the contradiction with day 58 returns immediately."
+ },
+ {
+  "round": 4,
+  "id": "d121q1",
+  "version": "FINAL — after two further tightenings",
+  "note": "Two changes were made after the round-4 pick above. (1) A soft wording tell remained: the key was the only option naming a concrete antecedent artifact while every distractor was a person-directed action, so a candidate could pattern-match without reasoning. Distractor 'Reassigning the responsibility to another technician' was replaced with 'A one-time email describing when the step applies' — a competing 'when' hook that is wrong for a different reason, forcing the candidate to reason about the permanence and proximity of the prompt rather than spotting the keyword. (2) A second reviewer on a faster model still read the item as contradicting day 58, on the shared surface feature of inconsistent performance. That reading is weaker — it miscategorises an occasion-ambiguity problem as can't-do — but the surface cue was cheap to remove, so 'staff omit it inconsistently' became 'it is omitted across the team'. Team-wide omission points at a systems cause rather than an individual won't-do, which strengthens the antecedent framing and removes the overlap. FINAL TEXT: 'Nobody has specified when a required safety step applies, and it is omitted across the team. Indicated:' key = 'A posted job aid listing each trigger condition'. Not re-blinded after these two edits; both narrow the item toward the key rather than widening it."
+ }
+]

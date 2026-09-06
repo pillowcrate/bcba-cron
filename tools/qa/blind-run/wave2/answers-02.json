@@ -1,0 +1,23 @@
+[
+ {
+  "id": "d118q2",
+  "pick": "C",
+  "confidence": "high",
+  "defensible": ["C"],
+  "note": "Pyramidal training is defined by the middle tier acquiring the training procedure itself, typically BST, so they can then train the bottom tier. That is what multiplies the expert's reach. FLAG (mild): middle-tier trainers in most published pyramidal studies also acquire the target intervention skill before learning to train it, so a very literal reader could argue the client-protocol option is partially true. The stem asks for 'the skill', singular and distinctive, which resolves it."
+ },
+ {
+  "id": "d120q2",
+  "pick": "A",
+  "confidence": "high",
+  "defensible": ["A"],
+  "note": "Verified against the published abstract: Tomlinson, Gore, and McGill (2018) reviewed 20 articles and stated explicitly that trainee fidelity following telehealth training was variable, alongside barriers and substantially lower cost and travel burden. The 'consistently equivalent' option is tempting because the review is broadly favourable toward telehealth, but few included studies made direct telehealth-versus-in-person comparisons, so it overstates the finding and contradicts the word 'variable'. No flaw found."
+ },
+ {
+  "id": "d122q2",
+  "pick": "A",
+  "confidence": "high",
+  "defensible": ["A"],
+  "note": "The code requires supervisors to delegate only tasks the supervisee can competently perform, and competence must be assessed rather than assumed. FLAG: the 'responsibility remains with the supervisor' option contains an accidentally true premise — the supervisor does retain ultimate responsibility — but the conclusion drawn from it is wrong, since retained responsibility is precisely why competence must be verified first, not a substitute for verifying it. A candidate reading only the clause after 'because' could be pulled to it."
+ }
+]

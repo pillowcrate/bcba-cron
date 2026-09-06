@@ -1,0 +1,26 @@
+[
+ {
+  "id": "d119q1",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.5 · Skill Maintenance",
+  "q": "An RBT scored 100% on a training checklist in March. By July, performance has drifted. The likeliest explanation is:",
+  "choices": [
+   "A. The original training was inadequately delivered",
+   "B. The RBT requires a different training modality",
+   "C. The written protocol itself was never effective",
+   "D. The maintenance contingencies were never arranged"
+  ]
+ },
+ {
+  "id": "d121q1",
+  "domain": "Personnel Supervision and Management",
+  "taskCode": "I.5 · Antecedent Supports",
+  "q": "A technician performs a skill correctly when asked but omits it during unstructured periods. Indicated:",
+  "choices": [
+   "A. Task clarification specifying when it is required",
+   "B. Increasing the frequency of scheduled observation",
+   "C. A written warning documenting the omissions",
+   "D. A full behavioral skills training sequence"
+  ]
+ }
+]

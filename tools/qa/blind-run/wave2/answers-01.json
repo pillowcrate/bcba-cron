@@ -1,0 +1,23 @@
+[
+ {
+  "id": "d118q1",
+  "pick": "B",
+  "confidence": "high",
+  "defensible": ["B"],
+  "note": "Pyramidal training is defined by the expert training the middle tier to a mastery criterion and then measuring that trainer's fidelity when they train the next tier. The accountability loop, not the tiered staffing, is what separates it from informally handing new hires to a senior tech. Seniority is the most tempting distractor because it is what agencies actually rely on, but experience is exactly the uncontrolled variable pyramidal training replaces with measured competence."
+ },
+ {
+  "id": "d120q1",
+  "pick": "D",
+  "confidence": "medium",
+  "defensible": ["D", "A"],
+  "note": "A fixed camera frame truncates the environment, so establishing operations and antecedents occurring off-screen are unavailable, which directly undermines the A-B-C inference the observation exists to support. Video generally improves frequency scoring rather than degrading it, and transmission delay is a nuisance that rarely changes conclusions. FLAG: the reactivity option is accidentally true — awareness of recording does produce reactivity and is a genuine limitation — so the item leans on 'most significant' to discriminate. The key still wins because reactivity is typically transient and is present during in-person observation too, so it is not the limitation introduced by video."
+ },
+ {
+  "id": "d122q1",
+  "pick": "B",
+  "confidence": "medium",
+  "defensible": ["B"],
+  "note": "Direct observation is the most time-expensive supervisory component, so it is the first thing an over-extended supervisor quietly substitutes with supervisee self-report; that substitution is both early and diagnostic of caseload specifically. Stalled client progress is the classic trap: it is the real harm but a lagging outcome appearing months after capacity was exceeded, so it cannot be the earliest indicator. FLAG (weak): a reader who weights only 'earliest' and ignores 'reliable' can build a case for late documentation, which is observable before observation practices visibly change."
+ }
+]

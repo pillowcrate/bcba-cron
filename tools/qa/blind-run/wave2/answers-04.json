@@ -1,0 +1,16 @@
+[
+ {
+  "id": "d119q1",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "The stem establishes that acquisition occurred — 100% on the checklist means the skill was trained to criterion and the protocol was performable as written — so 'training was inadequate' and 'protocol was never effective' are ruled out by the stem itself, and a modality change addresses acquisition failure rather than post-acquisition decay. Degradation over four months with no intervening event is the signature of absent maintenance programming: no booster, no ongoing feedback, no reinforcement contingency for continued correct implementation. No flag."
+ },
+ {
+  "id": "d121q1",
+  "pick": "A",
+  "confidence": "medium",
+  "defensible": ["A", "B"],
+  "note": "ORIGINAL VERSION, SUPERSEDED. Correct performance on request establishes a can-do/won't-do performance problem rather than a skill deficit. FLAG (acted on): the 'increasing the frequency of scheduled observation' distractor is defensibly correct as written — if responding occurs only when someone asks, more observation would plausibly raise performance through reactivity and monitored contingencies — so the item hinged on an unstated preference for antecedent clarification over surveillance rather than on that option being false. That option was replaced with 'Reassigning the responsibility to another technician'. See answers-recheck-d121.json."
+ }
+]

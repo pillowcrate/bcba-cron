@@ -1,0 +1,23 @@
+[
+ {
+  "id": "d118q3",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "Parsons, Rollyson, and Reid evaluate trainees first in role-play and then in the natural work setting precisely because mastery during rehearsal does not guarantee generalization to real staff and real clients; the on-the-job probe is the generalization test. The IOA option sounds methodologically respectable but applies equally to simulation and in-situ scoring, so it explains nothing about why the setting changed. No flag: only one option is defensible."
+ },
+ {
+  "id": "d120q3",
+  "pick": "B",
+  "confidence": "high",
+  "defensible": ["B"],
+  "note": "When a modality cannot capture a specific skill, the fix is targeted: assess that one skill in person while continuing everything else remotely. Postponing all supervision is disproportionate and halts the functions video handles well. FLAG (minor): scoring the unobserved segment as incorrect has a sliver of surface appeal because some fidelity checklists score non-observed steps as non-occurrence, but that convention applies to a client's behavior in a valid observation window, not to an assessor's failed camera angle. Not defensibly correct here."
+ },
+ {
+  "id": "d122q3",
+  "pick": "C",
+  "confidence": "high",
+  "defensible": ["C"],
+  "note": "Ethical discontinuation turns on continuity: reasonable advance notice, discussion with the supervisee, and an orderly handoff so accrued experience and client care are not disrupted. 'Continue until all hours accrue' is the trap for anyone treating obligations to a supervisee as absolute, but the stem grants a legitimate reason to end. FLAG (minor): notifying the board is adjacent to a real duty, since the supervisor must still complete and sign experience documentation, but that is closing out records rather than notifying the board of the ending."
+ }
+]

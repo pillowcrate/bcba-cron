@@ -1,0 +1,46 @@
+[
+ {
+  "_comment": "Round 2 and round 3 re-checks of the two day-121 items flagged in the first blind pass. Each round used a fresh option shuffle and an independent reviewer with no key. The 'blind' letters below are in each round's own shuffled space, not the real option order in route.js.",
+  "round": 2,
+  "id": "d121q1",
+  "version": "distractor 'Increasing the frequency of scheduled observation' replaced with 'Reassigning the responsibility to another technician'",
+  "blind_choices": ["A. Reassigning the responsibility to another technician", "B. A written warning documenting the omissions", "C. A full behavioral skills training sequence", "D. Task clarification specifying when it is required"],
+  "pick": "D",
+  "correct": true,
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "Exactly one option is defensibly 'indicated' now. Reassignment abandons the performance problem rather than addressing it; the written warning is punitive and escalates before any antecedent intervention; BST is contraindicated by the stem. The prior objection is resolved because increased observation was a legitimate non-punitive step that could plausibly accompany clarification, and none of the three remaining distractors has that property. FLAG (acted on): the correct option echoed the stem's temporal framing ('omits during unstructured periods' -> 'specifying when it is required'), a word-match tell. Reworded to 'Task clarification with a posted job aid'."
+ },
+ {
+  "round": 2,
+  "id": "d121q2",
+  "version": "rewritten from 'increased safe performance by manipulating' to 'manipulated response effort by varying'; options were distance / instructions / therapist count / session time",
+  "pick": "B",
+  "correct": true,
+  "confidence": "high",
+  "defensible": ["B"],
+  "note": "FLAG (acted on): still answerable from the paper's title alone. Of the four options only one was an effort manipulation at all, so the item discriminated on knowing the term 'response effort' — printed in the citation line directly above — rather than on knowing the study. Also slightly inaccurate: hand sanitizing manipulated dispenser pressure, not distance, so 'physical distance' covered only two of three dependent variables. Rewritten so all four options name plausible effort manipulations and the key names both mechanisms."
+ },
+ {
+  "round": 3,
+  "id": "d121q1",
+  "version": "FINAL — 'Task clarification with a posted job aid'",
+  "blind_choices": ["A. Reassigning the responsibility to another technician", "B. Task clarification with a posted job aid", "C. A full behavioral skills training sequence", "D. A written warning documenting the omissions"],
+  "pick": "B",
+  "correct": true,
+  "confidence": "high",
+  "defensible": ["B"],
+  "note": "Exactly one defensible option and no tell. Option lengths are even at 6-7 words and the key contains no wording lifted from the stem; the only stem echo now sits in a WRONG option, so an echo-hunting candidate is misled rather than helped. Non-blocking: the item is on the easy side, since each distractor is disqualified by an obvious principle rather than by fine discrimination. No FLAG."
+ },
+ {
+  "round": 3,
+  "id": "d121q2",
+  "version": "FINAL — all four options are plausible effort manipulations",
+  "blind_choices": ["A. Distance to supplies and dispenser pressure", "B. Time required to complete each safe response", "C. Weight of the protective equipment worn", "D. Number of steps in the safety protocol"],
+  "pick": "A",
+  "correct": true,
+  "confidence": "high",
+  "defensible": ["A"],
+  "note": "Verified against the open-access full text (PMC2998264): gloves at 0.61 m / 3 m / 6.1 m, outlet covers at 0.30 m vs 6.1 m, hand sanitizer dispenser at normal vs higher-than-normal pressure. TITLE GIVEAWAY: resolved — the title names no manipulation, no supplies, no dispenser and no distance, disclosing only the IV construct and population, both already in the stem, so nothing in it differentiates the options. ACCURACY: the key covers all three dependent variables exactly and omits no manipulation the authors used. FLAG (minor, format only, accepted): the key is the sole compound option and the only one naming a concrete apparatus, so a test-wise candidate favouring the most specific choice could reach it without study knowledge. Addressed by making one distractor compound and equally concrete."
+ }
+]

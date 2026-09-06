@@ -1,0 +1,16 @@
+[
+ {
+  "id": "d119q2",
+  "pick": "B",
+  "confidence": "high",
+  "defensible": ["B"],
+  "note": "The JABA abstract states that self-monitoring via activity cards increased on-schedule and on-task behavior, and that supervisor feedback was added subsequently because some staff did not maintain consistently high levels of performance. The 'evening-shift generalization' distractor is tempting because staff studies often report shift-based decrements, but the added component was prompted by a failure to MAINTAIN gains, not a generalization failure — the paper in fact reports generalization to evening hours without programming. FLAG (minor, accepted): the key is the only option naming a maintenance problem and reads close to the abstract, so the item is partly answerable by wording match. Verified against pmc.ncbi.nlm.nih.gov/articles/PMC1286140/."
+ },
+ {
+  "id": "d121q2",
+  "pick": "B",
+  "confidence": "high",
+  "defensible": ["B"],
+  "note": "ORIGINAL VERSION, SUPERSEDED. Casella et al. exposed therapists to two or three levels of response effort for glove wearing, hand sanitizing, and outlet replacement, and safe performance was highest in the low-effort conditions. FLAG (acted on): construct-validity problem rather than a keying problem — the stem names the study and the study's TITLE, rendered directly above the questions in the email, contains the phrase 'response effort', so a candidate who never read it could pick the answer from the citation line alone. The item was rewritten so all four options name plausible effort manipulations. Verified against pmc.ncbi.nlm.nih.gov/articles/PMC2998264/."
+ }
+]
