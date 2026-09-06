@@ -1,0 +1,9 @@
+[
+ {
+  "id": "d113q1",
+  "pick": "D",
+  "confidence": "high",
+  "defensible": ["D"],
+  "note": "Re-check after the ambiguous distractor was replaced. Shuffle differs from the first pass (key: C,A,D,B), so blind D maps to the keyed option. The answerer was explicitly asked to construct a defence of each other option and reported that none survives: 'cumulative responses across the week' is a single weekly aggregate that collapses sessions rather than comparing them (defensible only if reread as cumulative-record slope, which the wording does not say); 'count per session' carries the confound the stem introduces; 'total duration of the session' is the session length itself. Caveat recorded by the answerer: rate assumes free-operant responding, so if the stem had specified a fixed trial count the correct standardisation would be percentage of opportunities instead. The stem gives no trial structure, so the free-operant reading holds."
+ }
+]
