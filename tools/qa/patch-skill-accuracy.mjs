@@ -37,8 +37,8 @@ const max = bodies[bodies.length - 1];
 const longestDay = DAYS.reduce((a, b) => wc(a.concept.body) >= wc(b.concept.body) ? a : b).day;
 
 guard('deck length', DAYS.length, 128);
-guard('body median', median, 256);
-guard('body max', max, 323);
+guard('body median', median, 258);
+guard('body max', max, 325);
 guard('longest entry', longestDay, 13);
 guard('day 1 title', DAYS[0].concept.title, 'Descriptive Assessment: ABC Data and Scatter Plot Methodology');
 guard('day 114 taskCode', DAYS.find(d => d.day === 114).taskCode, 'C.4');
@@ -71,7 +71,7 @@ const edits = [
   // ---- 4. corpus stats were stale and the "Day 1 is longest" warning was false ----
   [
     'Across the live corpus `concept.body` has a median of 241 words and a max of 323. Count words programmatically before writing and verify after. Do not calibrate by reading Day 1 — it is the longest entry in the file.',
-    'Across the live corpus (128 entries) `concept.body` has a median of 256 words and a max of 323, which is day 13. Count words programmatically before writing and verify after. **Do not calibrate by eye off any single entry** — recompute. In particular the old advice to avoid day 1 as a yardstick is obsolete: day 1 is now 236 words, slightly *below* median.',
+    'Across the live corpus (128 entries) `concept.body` has a median of 258 words and a max of 325, which is day 13. Count words programmatically before writing and verify after. **Do not calibrate by eye off any single entry** — recompute; these numbers move every time the deck is edited. In particular the old advice to avoid day 1 as a yardstick is obsolete: day 1 is 236 words, slightly *below* median.',
   ],
 
   // ---- 5. WRONG CROSS-REFERENCE: day 1 does not contain the cited breakdown ----
