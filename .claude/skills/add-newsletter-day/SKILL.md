@@ -19,7 +19,7 @@ The deck is aligned to the **BACB BCBA Test Content Outline (6th ed.)** — 104 
   taskDesc: "string",             // the verbatim 6th-ed TCO task text for that code
   concept: {
     title: "string",              // specific, technical — not a restatement of taskDesc
-    body: "string"                // 4 paragraphs (5 max), separated by \n\n — see Voice below
+    body: "string"                // 4-5 paragraphs, separated by \n\n — see Voice below
   },
   research: {
     citation: "string",           // full citation, see Citation format below
@@ -49,13 +49,15 @@ The deck is aligned to the **BACB BCBA Test Content Outline (6th ed.)** — 104 
 
 ## Where to insert — READ THIS BEFORE EDITING
 
-The array is **not** chronological. The original 63 days and the 49 added 6th-edition days were shuffled together once, with a fixed seed, so the rotation mixes old and new content. Array position IS the day number printed in the email.
+The array is **not** chronological. Array position IS the day number printed in the email.
+
+Days 1-112 — the original 63 plus the 49 added 6th-edition days — were shuffled together once with a fixed seed and are genuinely interleaved: no run of more than three consecutive same-domain days. Days 113-128 were **appended** by Waves 1-3 in single-domain blocks and are not interleaved. So the deck is "shuffled, then appended to", not uniformly shuffled.
 
 Consequences for adding a day:
 
-1. **Insert at a position that keeps the mix**, not at the end. Appending buries new content roughly six months out in a 112-day rotation.
-2. **Renumber every `day` field after the insertion point** so `day` still equals 1-based array position. This is the opposite of the old rule — do not preserve existing `day` values.
-3. **Do NOT reflexively restamp `ROTATION_ANCHOR`.** The delivery index is `(ROTATION_ANCHOR.dayNumber - 1 + countWeekdays(ROTATION_ANCHOR.date, today)) % DAYS.length`. The invariant is **not** "length changed" — it is that the anchor names a real past send whose number was not produced by a wrap under the old modulus. If it still does, growing the deck diverges from the old rotation only at the old wrap point, which is exactly where new days should appear. **Restamping an already-correct anchor moves the counter and is itself the bug.** Restamp only when the anchor is stale or sits after a wrap; then set `date` to a real past send and `dayNumber` to the number that send actually showed, read from the subject line rather than calculated. Verify either way by simulating `getTodayIndex()` over ~400 days under both the old and new lengths.
+1. **Appending is the supported path, and it is what every wave has actually done.** `add-days.mjs` appends by design. The cost is that new content lands at the end of the rotation — on a 128-day deck, roughly five months out — and arrives as a single-domain block. Waves 1-3 all accepted that. Do not "fix" this by hand-editing the array unless you have read rule 2 and mean it.
+2. **If you interleave instead, you must renumber AND you may have to restamp.** `day` must equal its 1-based array position, so inserting mid-array renumbers every later entry. More importantly, inserting anywhere **before** the current anchor's position changes which entry that anchor's date actually delivered — the anchor silently becomes wrong and **must** be restamped. That is the one case rule 3 does not cover, and it is the opposite of rule 3's default. Nobody has paid this cost yet. If you do: renumber, restamp, and prove it by simulating `getTodayIndex()` across the change.
+3. **When appending (the normal case), do NOT reflexively restamp `ROTATION_ANCHOR`.** The delivery index is `(ROTATION_ANCHOR.dayNumber - 1 + countWeekdays(ROTATION_ANCHOR.date, today)) % DAYS.length`. The invariant is **not** "length changed" — it is that the anchor names a real past send whose number was not produced by a wrap under the old modulus. If it still does, growing the deck diverges from the old rotation only at the old wrap point, which is exactly where new days should appear. **Restamping an already-correct anchor moves the counter and is itself the bug.** Restamp only when the anchor is stale or sits after a wrap; then set `date` to a real past send and `dayNumber` to the number that send actually showed, read from the subject line rather than calculated. Verify either way by simulating `getTodayIndex()` over ~400 days under both the old and new lengths.
 4. Avoid placing the new day adjacent to another day in the same domain.
 
    **Known violation, accepted — and now compounding.** Wave 2 (Sept 2026)
@@ -86,18 +88,18 @@ The most common failure on this file is writing too long. An earlier batch came 
 | field | target (words) |
 |---|---|
 | `concept.title` | 5–9 |
-| `concept.body` | 230–290, in 4 paragraphs |
+| `concept.body` | 230–290, in 4–5 paragraphs |
 | `research.summary` | 110–135 |
 | `application` | 55–80 |
 | question stem | 8–22 |
-| each option | 3–11 |
+| each option | 3–11 *(guidance, not enforced — ~10% of live options fall outside)* |
 | `rationale` | 24–38 |
 
-Across the live corpus `concept.body` has a median of 241 words and a max of 323. Count words programmatically before writing and verify after. Do not calibrate by reading Day 1 — it is the longest entry in the file.
+Across the live corpus (128 entries) `concept.body` has a median of 258 words and a max of 325, which is day 13. Count words programmatically before writing and verify after. **Do not calibrate by eye off any single entry** — recompute; these numbers move every time the deck is edited. In particular the old advice to avoid day 1 as a yardstick is obsolete: day 1 is 236 words, slightly *below* median.
 
 ## Voice and content rules
 
-- **concept.body**: 4 paragraphs. Open by framing why the concept matters clinically or on the exam — not a dictionary definition. Name at least one researcher inline with a year, e.g. "Michael (1993) distinguished...". Break the concept into 3–4 **named** sub-types or contrasts (see Day 1's frequency/duration/latency/IRT breakdown, or the DRL day's full-session / interval / spaced-responding breakdown); roughly a third of entries use a labelled lead-in (`Latency: Latency is the elapsed time...`), an efficient way to hit the word budget. End with the specific point the exam most commonly gets wrong or conflates. No second person here — that belongs only in `application`.
+- **concept.body**: 4 paragraphs. Open by framing why the concept matters clinically or on the exam — not a dictionary definition. Name at least one researcher inline with a year, e.g. "Michael (1993) distinguished...". Break the concept into 3–4 **named** sub-types or contrasts. Day 114 (`C.4`, Temporal Dimensions) is the cleanest exemplar — Duration / Latency / Interresponse time as labelled lead-ins, 243 words, five paragraphs. Day 13 (`C.9`) does the same across frequency/duration/latency/IRT but is the longest entry in the deck at 323 words, so copy its structure and not its length. Day 43 (`G.2 · DRL`) is a third example. 31% of entries use a labelled lead-in (`Latency: Latency is the elapsed time...`), an efficient way to hit the word budget. (Day 1 does **not** contain a frequency/duration/latency breakdown — it is descriptive assessment. An earlier version of this skill pointed there and was wrong.) End with the specific point the exam most commonly gets wrong or conflates. No second person here — that belongs only in `application`.
 - **research.citation**: full academic citation.
   - Journal article: `Author, A. A., & Author, B. B. (Year). Title of article. Journal Name, Volume(Issue), pages.`
   - Book: `Author, A. A. (Year). Title of book (edition if applicable). Publisher.`
@@ -114,9 +116,34 @@ Across the live corpus `concept.body` has a median of 241 words and a max of 323
 
 The deck is deliberately balanced: as of Wave 3 (128 days, 384 questions) correct answers are exactly 96/96/96/96 across A–D, and near-uniform within each of the three question slots (33/32/31/32, 31/32/33/32, 32/32/32/32). Recompute rather than trusting this line — it has gone stale after every wave. Adding a day nudges this — pick answer letters that keep it near-uniform, and never give one day the same letter three times.
 
-**Known open issue:** the correct option is the uniquely longest of the four in about 33% of questions (chance is 25%), down from 71% before the September 2026 fix. Do not make it worse — write distractors comparable in length to the key. Verify with `node tools/qa/measure-len.mjs`.
+**Known open issue:** the correct option is the uniquely longest of the four in 32.3% of questions as of Wave 3 (chance is 25%), down from 71% before the September 2026 fix. Do not make it worse — write distractors comparable in length to the key. Verify with `node tools/qa/measure-len.mjs`.
 
 Never write a rationale that names an option by letter ("Option C is correct"). Option order gets permuted during rebalancing and the reference goes stale.
+
+## Verify — the checks that actually catch things
+
+Word counts and the build are the easy part and are not where the risk lives. The QA harness at
+`tools/qa/` exists because three classes of error pass every mechanical check. Read
+`tools/qa/README.md` and the most recent `tools/qa/blind-run/wave*/README.md` before authoring.
+
+1. **Tell scans.** `node tools/qa/measure-len.mjs` (longest-answer tell must not rise) and
+   `node tools/qa/scan-grammar-tell.mjs`. Write your new question ids into
+   `.bcba-build/applied-ids.json` **before** running the grammar scan, or your new flags get
+   misfiled as pre-existing and you will not see them.
+2. **Blind re-answer pass.** `node tools/qa/make-blind.mjs`, then have agents answer with no key
+   and no access to `route.js`, requiring an explicit "list EVERY defensible option" field. This is
+   the only thing that catches a distractor you have accidentally made true. Treat a flag as
+   evidence, not a verdict: "a distractor is accidentally true" always gets fixed, but "the key
+   requires having read the day" is fine — blind agents have not read the day, so every
+   citation-recall item looks unfair to them.
+3. **Whole-deck consistency pass.** Blind checking scores each question in isolation and is
+   structurally incapable of catching two days that teach opposite rules. Run a separate reviewer
+   over the new days against the existing deck. This has found a real contradiction in every wave
+   that ran it.
+
+Verify citations against Crossref **before** authoring, and take findings from fetched abstracts or
+full texts rather than recollection. Note which papers you could only get an abstract for, and
+write those summaries without specifics rather than filling the gap from memory.
 
 ## Before finishing
 
